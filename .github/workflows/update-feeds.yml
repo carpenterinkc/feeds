@@ -1,0 +1,56 @@
+name: Update feeds
+
+on:
+  schedule:
+    - cron: "17 */3 * * *"   # every 3 hours, at :17 past
+  workflow_dispatch:          # "Run workflow" button for manual runs
+
+permissions:
+  contents: write   # commit the refreshed feeds
+  actions: write    # keep this schedule from being auto-disabled
+
+concurrency:
+  group: update-feeds
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build feeds
+        id: build
+        continue-on-error: true
+        run: python build_feeds.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "feed-factory"
+          git config user.email "feed-factory@users.noreply.github.com"
+          git add -A data docs
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Update feeds $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
+
+      # GitHub disables scheduled workflows in public repos after 60 days
+      # without repository activity. Re-enabling resets that clock.
+      - name: Keep schedule alive
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method PUT "/repos/${{ github.repository }}/actions/workflows/update-feeds.yml/enable" || true
+
+      - name: Fail the run if any feed failed
+        if: steps.build.outcome == 'failure'
+        run: |
+          echo "One or more feeds failed. See the Build feeds step. Last good versions were kept."
+          exit 1

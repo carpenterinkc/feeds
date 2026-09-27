@@ -1,0 +1,19 @@
+# Feed factory configuration.
+# To add a site: copy a [[feed]] block, give it a unique slug, and push.
+# The feed will appear at  <pages_base>/<slug>.xml
+
+pages_base = "https://carpenterinkc.github.io/feeds"
+
+[[feed]]
+slug = "claude-announcements"
+title = "Claude Blog: Product announcements"
+url = "https://claude.com/blog-category/announcements"
+description = "Product announcements from the Claude blog."
+link_pattern = '^https://claude\.com/blog/[^/]+/?$'
+
+[[feed]]
+slug = "claude-agents"
+title = "Claude Blog: Agents"
+url = "https://claude.com/blog-category/agents"
+description = "Agents posts from the Claude blog."
+link_pattern = '^https://claude\.com/blog/[^/]+/?$'
