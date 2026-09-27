@@ -6,7 +6,7 @@
 <description>Product announcements from the Claude blog.</description>
 <atom:link href="https://carpenterinkc.github.io/feeds/claude-announcements.xml" rel="self" type="application/rss+xml"/>
 <language>en</language>
-<lastBuildDate>Sun, 27 Sep 2026 18:29:45 +0000</lastBuildDate>
+<lastBuildDate>Sun, 27 Sep 2026 21:23:46 +0000</lastBuildDate>
 <item>
 <title>Build plugins for Claude</title>
 <link>https://claude.com/blog/build-plugins-for-claude</link>
