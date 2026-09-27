@@ -6,20 +6,13 @@
 <description>Agents posts from the Claude blog.</description>
 <atom:link href="https://carpenterinkc.github.io/feeds/claude-agents.xml" rel="self" type="application/rss+xml"/>
 <language>en</language>
-<lastBuildDate>Sun, 27 Sep 2026 18:15:17 +0000</lastBuildDate>
+<lastBuildDate>Sun, 27 Sep 2026 18:29:46 +0000</lastBuildDate>
 <item>
 <title>Reducing cost and improving performance with Claude Platform</title>
 <link>https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform</link>
 <guid isPermaLink="true">https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform</guid>
 <pubDate>Tue, 08 Sep 2026 12:00:00 +0000</pubDate>
 <description>&lt;p&gt;&lt;img src="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa04a6665e27a80275b0317_og_reducing-cost-and-improving-performance-with-claude-platform%20(1).jpg" alt=""/&gt;&lt;/p&gt;&lt;p&gt;Tuning prompt caching, instructions, and effort can reduce Claude&amp;#x27;s cost without sacrificing application performance.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>A guide to the anatomy of effective commerce agents</title>
-<link>https://claude.com/blog/the-anatomy-of-effective-commerce-agents</link>
-<guid isPermaLink="true">https://claude.com/blog/the-anatomy-of-effective-commerce-agents</guid>
-<pubDate>Wed, 02 Sep 2026 12:00:00 +0000</pubDate>
-<description>&lt;p&gt;&lt;img src="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a9739f4dbe753c78e6e136d_og_the-anatomy-of-effective-commerce-agents.jpg" alt=""/&gt;&lt;/p&gt;&lt;p&gt;The architecture, latency &amp;amp; cost techniques, and eval practices for agents that make it easier to buy and sell online.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/blog/the-anatomy-of-effective-commerce-agents"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Building commerce agents with Claude</title>
@@ -29,6 +22,13 @@
 <description>&lt;p&gt;We&amp;#x27;re launching a blueprint to help build commerce agents on Claude. It contains the harnesses, patterns, and guardrails an engineering team needs to get a commerce agent running in days.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/blog/claude-for-commerce-agents"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
+<title>A guide to the anatomy of effective commerce agents</title>
+<link>https://claude.com/blog/the-anatomy-of-effective-commerce-agents</link>
+<guid isPermaLink="true">https://claude.com/blog/the-anatomy-of-effective-commerce-agents</guid>
+<pubDate>Wed, 02 Sep 2026 12:00:00 +0000</pubDate>
+<description>&lt;p&gt;&lt;img src="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a9739f4dbe753c78e6e136d_og_the-anatomy-of-effective-commerce-agents.jpg" alt=""/&gt;&lt;/p&gt;&lt;p&gt;The architecture, latency &amp;amp; cost techniques, and eval practices for agents that make it easier to buy and sell online.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/blog/the-anatomy-of-effective-commerce-agents"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
 <title>How Warp builds self-improving agents on Claude</title>
 <link>https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude</link>
 <guid isPermaLink="true">https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude</guid>
@@ -36,18 +36,18 @@
 <description>&lt;p&gt;&lt;img src="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a8f1a88683b6dcd40c0dbc2_og_how-warp-builds-self-improving-agents-on-claude.jpg" alt=""/&gt;&lt;/p&gt;&lt;p&gt;How Warp devised a simple development pattern that anyone can use to create self-improving agents.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
-<title>How monday.com transformed its platform into an agent-first product where humans and agents collaborate</title>
-<link>https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate</link>
-<guid isPermaLink="true">https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate</guid>
-<pubDate>Thu, 20 Aug 2026 12:00:00 +0000</pubDate>
-<description>&lt;p&gt;The monday team shares lessons from the transition to an agent-first product after they rebuilt the platform around Anthropic&amp;#x27;s Claude.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
 <title>Build production agents with computer use, the Skills API, and the Files API</title>
 <link>https://claude.com/blog/computer-use-skills-api-files-api</link>
 <guid isPermaLink="true">https://claude.com/blog/computer-use-skills-api-files-api</guid>
 <pubDate>Thu, 20 Aug 2026 12:00:00 +0000</pubDate>
 <description>&lt;p&gt;&lt;img src="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69051360369f8c1bb58fc2fe_og_build-artifacts.jpg" alt=""/&gt;&lt;/p&gt;&lt;p&gt;Computer use, the Skills API, and the Files API are generally available on the Claude Platform today. Computer use also adds a new browser use tool for agents that work in web applications. Together they let you build agents that operate software, apply your team&amp;#x27;s expertise, and return finished files.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/blog/computer-use-skills-api-files-api"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>How monday.com transformed its platform into an agent-first product where humans and agents collaborate</title>
+<link>https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate</link>
+<guid isPermaLink="true">https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate</guid>
+<pubDate>Thu, 20 Aug 2026 12:00:00 +0000</pubDate>
+<description>&lt;p&gt;The monday team shares lessons from the transition to an agent-first product after they rebuilt the platform around Anthropic&amp;#x27;s Claude.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Claude on call: How Claude Tag serves as Anthropic’s first responder for CI/CD failures</title>
