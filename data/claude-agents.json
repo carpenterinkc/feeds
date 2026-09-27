@@ -1,0 +1,137 @@
+{
+  "https://claude.com/blog/ai-ci-cd-on-call": {
+    "date": "2026-08-18T12:00:00+00:00",
+    "description": "How Anthropic runs AI incident response for CI/CD: an engineer on our Continuous Integration team walks through the Claude Tag agent that detects, triages, and resolves CI failures.",
+    "first_seen": "2026-09-27T18:15:00+00:00",
+    "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a84a8dee0d08841721bbc53_og_ai-ci-cd-on-call.jpg",
+    "published": "",
+    "title": "Claude on call: How Claude Tag serves as Anthropic\u2019s first responder for CI/CD failures",
+    "url": "https://claude.com/blog/ai-ci-cd-on-call"
+  },
+  "https://claude.com/blog/best-practices-for-computer-and-browser-use-with-claude": {
+    "date": "2026-05-13T12:00:00+00:00",
+    "description": "Practical guidance for developers building computer and browser use integrations with the Claude model family.",
+    "first_seen": "2026-09-27T18:15:00+00:00",
+    "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a04cc7d3d02e5b1490e58cb_og_best-practices-for-computer-and-browser-use-with-claude.jpg",
+    "published": "",
+    "title": "Best practices for computer and browser use with Claude",
+    "url": "https://claude.com/blog/best-practices-for-computer-and-browser-use-with-claude"
+  },
+  "https://claude.com/blog/building-with-claude-managed-agents": {
+    "date": "2026-06-10T12:00:00+00:00",
+    "description": "Claude Managed Agents allows teams to build and deploy agents in production environments reliably at scale. Here\u2019s why and how teams are using it.",
+    "first_seen": "2026-09-27T18:15:00+00:00",
+    "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a29a4ec45e805bae2994095_og_building-with-claude-managed-agents.jpg",
+    "published": "",
+    "title": "The evolution of agentic surfaces: building with Claude Managed Agents",
+    "url": "https://claude.com/blog/building-with-claude-managed-agents"
+  },
+  "https://claude.com/blog/claude-for-commerce-agents": {
+    "date": "2026-09-02T12:00:00+00:00",
+    "description": "We're launching a blueprint to help build commerce agents on Claude. It contains the harnesses, patterns, and guardrails an engineering team needs to get a commerce agent running in days.",
+    "first_seen": "2026-09-27T18:15:00+00:00",
+    "image": "",
+    "published": "",
+    "title": "Building commerce agents with Claude",
+    "url": "https://claude.com/blog/claude-for-commerce-agents"
+  },
+  "https://claude.com/blog/claude-models-explained-choosing-the-best-model-for-your-use-case": {
+    "date": "2026-07-24T12:00:00+00:00",
+    "description": "Anthropic's guide to choosing the best Claude model for your use case \u2014 how Fable, Opus, Sonnet, and Haiku differ in intelligence, speed, and cost, and when to use each.",
+    "first_seen": "2026-09-27T18:15:00+00:00",
+    "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a639bdab734de5ebb484e76_og_claude-models-explained-choosing-the-best-model-for-your-use-case.jpg",
+    "published": "",
+    "title": "Claude models explained: choosing the best model for your use case",
+    "url": "https://claude.com/blog/claude-models-explained-choosing-the-best-model-for-your-use-case"
+  },
+  "https://claude.com/blog/computer-use-skills-api-files-api": {
+    "date": "2026-08-20T12:00:00+00:00",
+    "description": "Computer use, the Skills API, and the Files API are generally available on the Claude Platform today. Computer use also adds a new browser use tool for agents that work in web applications. Together they let you build agents that operate software, apply your team's expertise, and return finished files.",
+    "first_seen": "2026-09-27T18:15:00+00:00",
+    "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69051360369f8c1bb58fc2fe_og_build-artifacts.jpg",
+    "published": "",
+    "title": "Build production agents with computer use, the Skills API, and the Files API",
+    "url": "https://claude.com/blog/computer-use-skills-api-files-api"
+  },
+  "https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle": {
+    "date": "2026-07-21T12:00:00+00:00",
+    "description": "Anthropic Deputy CISO Jason Clinton details how the Security Engineering team secures an AI-native SDLC where AI authors 80% of merged code.",
+    "first_seen": "2026-09-27T18:15:00+00:00",
+    "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a5faa4b748d179725b5376e_og_how-anthropic-secures-its-ai-native-software-development-lifecycle.jpg",
+    "published": "",
+    "title": "How Anthropic secures its AI-native software development lifecycle",
+    "url": "https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle"
+  },
+  "https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate": {
+    "date": "2026-08-20T12:00:00+00:00",
+    "description": "The monday team shares lessons from the transition to an agent-first product after they rebuilt the platform around Anthropic's Claude.",
+    "first_seen": "2026-09-27T18:15:00+00:00",
+    "image": "",
+    "published": "",
+    "title": "How monday.com transformed its platform into an agent-first product where humans and agents collaborate",
+    "url": "https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate"
+  },
+  "https://claude.com/blog/how-outtake-built-a-cyber-investigator-on-claude": {
+    "date": "2026-07-22T12:00:00+00:00",
+    "description": "How Outtake ensures multi-hour agent sessions stay on track to uncover attack network operations",
+    "first_seen": "2026-09-27T18:15:00+00:00",
+    "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a171e63d2dd3d5300703e8c_og_how-coderabbit-used-claude-to-build-an-agent-orchestration-system.jpg",
+    "published": "",
+    "title": "How Outtake built a cyber investigator on Claude",
+    "url": "https://claude.com/blog/how-outtake-built-a-cyber-investigator-on-claude"
+  },
+  "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude": {
+    "date": "2026-08-26T12:00:00+00:00",
+    "description": "How Warp devised a simple development pattern that anyone can use to create self-improving agents.",
+    "first_seen": "2026-09-27T18:15:00+00:00",
+    "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a8f1a88683b6dcd40c0dbc2_og_how-warp-builds-self-improving-agents-on-claude.jpg",
+    "published": "",
+    "title": "How Warp builds self-improving agents on Claude",
+    "url": "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude"
+  },
+  "https://claude.com/blog/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude": {
+    "date": "2026-08-06T12:00:00+00:00",
+    "description": "Anthropic is working with Millennium to co-develop a digital risk analyst to surface new risk insights and form opinions on risk exposure across asset classes.",
+    "first_seen": "2026-09-27T18:15:00+00:00",
+    "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a747f72feb212980157f67d_og_millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude.jpg",
+    "published": "",
+    "title": "Millennium and Anthropic are building a digital risk analyst with Claude",
+    "url": "https://claude.com/blog/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude"
+  },
+  "https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform": {
+    "date": "2026-09-08T12:00:00+00:00",
+    "description": "Tuning prompt caching, instructions, and effort can reduce Claude's cost without sacrificing application performance.",
+    "first_seen": "2026-09-27T18:15:00+00:00",
+    "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa04a6665e27a80275b0317_og_reducing-cost-and-improving-performance-with-claude-platform%20(1).jpg",
+    "published": "",
+    "title": "Reducing cost and improving performance with Claude Platform",
+    "url": "https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform"
+  },
+  "https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions": {
+    "date": "2026-08-13T12:00:00+00:00",
+    "description": "How Anthropic's data team uses Claude Tag for self-service data analytics with the same governed definitions analysts use.",
+    "first_seen": "2026-09-27T18:15:00+00:00",
+    "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a7e057ca14740a012d1d11d_og_self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions.jpg",
+    "published": "",
+    "title": "Self-service data analytics in Slack: how Anthropic deploys Claude Tag for ad-hoc questions",
+    "url": "https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions"
+  },
+  "https://claude.com/blog/the-anatomy-of-effective-commerce-agents": {
+    "date": "2026-09-02T12:00:00+00:00",
+    "description": "The architecture, latency & cost techniques, and eval practices for agents that make it easier to buy and sell online.",
+    "first_seen": "2026-09-27T18:15:00+00:00",
+    "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a9739f4dbe753c78e6e136d_og_the-anatomy-of-effective-commerce-agents.jpg",
+    "published": "",
+    "title": "A guide to the anatomy of effective commerce agents",
+    "url": "https://claude.com/blog/the-anatomy-of-effective-commerce-agents"
+  },
+  "https://claude.com/blog/zero-trust-for-ai-agents": {
+    "date": "2026-05-27T12:00:00+00:00",
+    "description": "A Zero Trust framework for deploying autonomous AI agents in the enterprise, covering current threats, a tiered architecture, an eight-phase implementation workflow, and agentic SOAR.",
+    "first_seen": "2026-09-27T18:15:00+00:00",
+    "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a172fd3c4c836a09c21fe29_og_zero-trust-for-ai-agents.jpg",
+    "published": "",
+    "title": "Zero Trust for AI agents",
+    "url": "https://claude.com/blog/zero-trust-for-ai-agents"
+  }
+}

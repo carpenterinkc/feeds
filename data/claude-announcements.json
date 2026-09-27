@@ -1,0 +1,137 @@
+{
+  "https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai": {
+    "date": "2026-08-20T12:00:00+00:00",
+    "description": "Claude Academy gives users the educational tools they need to learn how to use AI effectively. In this post, we highlight why we\u2019re launching it and how our own approach to teaching and learning influenced its development.",
+    "first_seen": "2026-09-27T18:14:44+00:00",
+    "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a87352164143e387edeb760_og_anthropics-approach-to-teaching-and-learning-ai.jpg",
+    "published": "",
+    "title": "Anthropic\u2019s approach to teaching and learning AI",
+    "url": "https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai"
+  },
+  "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders": {
+    "date": "2026-08-21T12:00:00+00:00",
+    "description": "We\u2019re sharing an update on our efforts to help more teams leverage frontier capabilities for cyber defense.",
+    "first_seen": "2026-09-27T18:14:44+00:00",
+    "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69f398245c0b3933c7940d49_og_claude-security-public-beta%20(1).jpg",
+    "published": "",
+    "title": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
+    "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders"
+  },
+  "https://claude.com/blog/build-plugins-for-claude": {
+    "date": "2026-09-25T12:00:00+00:00",
+    "description": "Submit plugins to the Claude directory through a new directory submission portal. Package MCP connectors and Agent Skills, track your plugin through review, and see how it's used and found once it's live",
+    "first_seen": "2026-09-27T18:14:44+00:00",
+    "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69051360369f8c1bb58fc2fe_og_build-artifacts.jpg",
+    "published": "",
+    "title": "Build plugins for Claude",
+    "url": "https://claude.com/blog/build-plugins-for-claude"
+  },
+  "https://claude.com/blog/claude-for-commerce-agents": {
+    "date": "2026-09-02T12:00:00+00:00",
+    "description": "We're launching a blueprint to help build commerce agents on Claude. It contains the harnesses, patterns, and guardrails an engineering team needs to get a commerce agent running in days.",
+    "first_seen": "2026-09-27T18:14:44+00:00",
+    "image": "",
+    "published": "",
+    "title": "Building commerce agents with Claude",
+    "url": "https://claude.com/blog/claude-for-commerce-agents"
+  },
+  "https://claude.com/blog/claude-for-financial-advisors": {
+    "date": "2026-09-14T12:00:00+00:00",
+    "description": "Financial advisors can now connect Claude to the custodians, portfolio platforms, CRMs, and planning tools they depend on, along with new skills tailored to the daily work of a financial advisor.",
+    "first_seen": "2026-09-27T18:14:44+00:00",
+    "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa81abedc3309638d37d060_og_claude-for-financial-advisors.jpg",
+    "published": "",
+    "title": "Claude for Financial Advisors",
+    "url": "https://claude.com/blog/claude-for-financial-advisors"
+  },
+  "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs": {
+    "date": "2026-09-15T12:00:00+00:00",
+    "description": "We\u2019re releasing new Claude for Small Business workflows and integrations to help owners run and grow their business, and kicking off the next leg of our Claude SMB Tour.",
+    "first_seen": "2026-09-27T18:14:44+00:00",
+    "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa96d1d8800d47f264507d6_og_claude-for-small-business-launches-new-workflows-integrations-and-training-programs.jpg",
+    "published": "",
+    "title": "Claude for Small Business launches new workflows, integrations, and training programs",
+    "url": "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs"
+  },
+  "https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts": {
+    "date": "2026-08-28T12:00:00+00:00",
+    "description": "Starting today, Claude for Teachers is available to U.S. K-12 schools and districts as a free Enterprise offering.",
+    "first_seen": "2026-09-27T18:14:44+00:00",
+    "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a91a4ba49d6a66f44cbe768_og_claude-for-teachers-now-available-for-schools-and-districts.jpg",
+    "published": "",
+    "title": "Claude for Teachers, now available for U.S. K-12 schools and districts",
+    "url": "https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts"
+  },
+  "https://claude.com/blog/claude-in-chrome-generally-available": {
+    "date": "2026-08-26T12:00:00+00:00",
+    "description": "Claude in Chrome is now available on every paid plan and can work through browser tasks without approving each step, with a safety check on every action. Here's how we tested it against prompt injection.",
+    "first_seen": "2026-09-27T18:14:44+00:00",
+    "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69050ff880f9a5c13932b7df_og_claude-for-chrome.jpg",
+    "published": "",
+    "title": "Claude in Chrome is generally available",
+    "url": "https://claude.com/blog/claude-in-chrome-generally-available"
+  },
+  "https://claude.com/blog/claude-marketplace": {
+    "date": "2026-09-23T12:00:00+00:00",
+    "description": "The Claude Marketplace brings plugins, connectors, agents, and service partners into one place. Find the tools and services to do more with Claude, or list what you've built to reach teams using Claude.",
+    "first_seen": "2026-09-27T18:14:44+00:00",
+    "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690515665479bb5c903bedd8_og_evaluate-prompts.jpg",
+    "published": "",
+    "title": "Claude Marketplace: one place to discover plugins, agents, and services from our partners",
+    "url": "https://claude.com/blog/claude-marketplace"
+  },
+  "https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels": {
+    "date": "2026-09-24T12:00:00+00:00",
+    "description": "Claude Tag can now use your connectors for requests you make in a channel. Nobody else can use them, and you're in control of how to present the output.",
+    "first_seen": "2026-09-27T18:14:44+00:00",
+    "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69050faaf1c82e21ceab419b_og_claude-and-slack.jpg",
+    "published": "",
+    "title": "Claude Tag now supports personal connectors in channels",
+    "url": "https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels"
+  },
+  "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it": {
+    "date": "2026-08-25T12:00:00+00:00",
+    "description": "Wherever you work with Claude from Anthropic, it starts from what it already knows about you.",
+    "first_seen": "2026-09-27T18:14:44+00:00",
+    "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a8dcb60a9e2ed84590a8b9e_og_claudes-memory-works-everywhere-and-you-decide-whats-in-it.jpg",
+    "published": "",
+    "title": "Claude's memory works everywhere, and you decide what's in it",
+    "url": "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it"
+  },
+  "https://claude.com/blog/computer-use-skills-api-files-api": {
+    "date": "2026-08-20T12:00:00+00:00",
+    "description": "Computer use, the Skills API, and the Files API are generally available on the Claude Platform today. Computer use also adds a new browser use tool for agents that work in web applications. Together they let you build agents that operate software, apply your team's expertise, and return finished files.",
+    "first_seen": "2026-09-27T18:14:44+00:00",
+    "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69051360369f8c1bb58fc2fe_og_build-artifacts.jpg",
+    "published": "",
+    "title": "Build production agents with computer use, the Skills API, and the Files API",
+    "url": "https://claude.com/blog/computer-use-skills-api-files-api"
+  },
+  "https://claude.com/blog/cowork-built-in-browser": {
+    "date": "2026-08-26T12:00:00+00:00",
+    "description": "Claude now has its own browser inside the Cowork desktop app. It opens sites, reads pages, and works in them while you keep working. No extension, and your own tabs and logins stay out of it.",
+    "first_seen": "2026-09-27T18:14:44+00:00",
+    "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69027547e3e5c830cb5d0a37_og_claude-is-now-available-in-microsoft-365-copilot.jpg",
+    "published": "",
+    "title": "Claude gets its own browser in Cowork",
+    "url": "https://claude.com/blog/cowork-built-in-browser"
+  },
+  "https://claude.com/blog/cowork-is-now-claude": {
+    "date": "2026-09-16T12:00:00+00:00",
+    "description": "Starting today, Claude Cowork and chat are one Claude, rolling out on Pro and Max plans. Hand over the task and Claude does the work. You keep the final say.",
+    "first_seen": "2026-09-27T18:14:44+00:00",
+    "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aaaa16ed688635ea2b10fa1_tn-artifacts.jpg",
+    "published": "",
+    "title": "Claude Cowork and chat are now one Claude",
+    "url": "https://claude.com/blog/cowork-is-now-claude"
+  },
+  "https://claude.com/blog/projects-redesigned": {
+    "date": "2026-09-17T12:00:00+00:00",
+    "description": "A new experience for Claude projects, now available in beta in Claude Code",
+    "first_seen": "2026-09-27T18:14:44+00:00",
+    "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aac1eaf2091cb214f764427_og_projects-redesigned.jpg",
+    "published": "",
+    "title": "Projects redesigned: from folder to conversation",
+    "url": "https://claude.com/blog/projects-redesigned"
+  }
+}

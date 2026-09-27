@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Claude Blog: Product announcements</title>
+<link>https://claude.com/blog-category/announcements</link>
+<description>Product announcements from the Claude blog.</description>
+<atom:link href="https://carpenterinkc.github.io/feeds/claude-announcements.xml" rel="self" type="application/rss+xml"/>
+<language>en</language>
+<lastBuildDate>Sun, 27 Sep 2026 18:15:00 +0000</lastBuildDate>
+<item>
+<title>Build plugins for Claude</title>
+<link>https://claude.com/blog/build-plugins-for-claude</link>
+<guid isPermaLink="true">https://claude.com/blog/build-plugins-for-claude</guid>
+<pubDate>Fri, 25 Sep 2026 12:00:00 +0000</pubDate>
+<description>&lt;p&gt;&lt;img src="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69051360369f8c1bb58fc2fe_og_build-artifacts.jpg" alt=""/&gt;&lt;/p&gt;&lt;p&gt;Submit plugins to the Claude directory through a new directory submission portal. Package MCP connectors and Agent Skills, track your plugin through review, and see how it&amp;#x27;s used and found once it&amp;#x27;s live&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/blog/build-plugins-for-claude"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Claude Tag now supports personal connectors in channels</title>
+<link>https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels</link>
+<guid isPermaLink="true">https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels</guid>
+<pubDate>Thu, 24 Sep 2026 12:00:00 +0000</pubDate>
+<description>&lt;p&gt;&lt;img src="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69050faaf1c82e21ceab419b_og_claude-and-slack.jpg" alt=""/&gt;&lt;/p&gt;&lt;p&gt;Claude Tag can now use your connectors for requests you make in a channel. Nobody else can use them, and you&amp;#x27;re in control of how to present the output.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Claude Marketplace: one place to discover plugins, agents, and services from our partners</title>
+<link>https://claude.com/blog/claude-marketplace</link>
+<guid isPermaLink="true">https://claude.com/blog/claude-marketplace</guid>
+<pubDate>Wed, 23 Sep 2026 12:00:00 +0000</pubDate>
+<description>&lt;p&gt;&lt;img src="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690515665479bb5c903bedd8_og_evaluate-prompts.jpg" alt=""/&gt;&lt;/p&gt;&lt;p&gt;The Claude Marketplace brings plugins, connectors, agents, and service partners into one place. Find the tools and services to do more with Claude, or list what you&amp;#x27;ve built to reach teams using Claude.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/blog/claude-marketplace"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Projects redesigned: from folder to conversation</title>
+<link>https://claude.com/blog/projects-redesigned</link>
+<guid isPermaLink="true">https://claude.com/blog/projects-redesigned</guid>
+<pubDate>Thu, 17 Sep 2026 12:00:00 +0000</pubDate>
+<description>&lt;p&gt;&lt;img src="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aac1eaf2091cb214f764427_og_projects-redesigned.jpg" alt=""/&gt;&lt;/p&gt;&lt;p&gt;A new experience for Claude projects, now available in beta in Claude Code&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/blog/projects-redesigned"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Claude Cowork and chat are now one Claude</title>
+<link>https://claude.com/blog/cowork-is-now-claude</link>
+<guid isPermaLink="true">https://claude.com/blog/cowork-is-now-claude</guid>
+<pubDate>Wed, 16 Sep 2026 12:00:00 +0000</pubDate>
+<description>&lt;p&gt;&lt;img src="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aaaa16ed688635ea2b10fa1_tn-artifacts.jpg" alt=""/&gt;&lt;/p&gt;&lt;p&gt;Starting today, Claude Cowork and chat are one Claude, rolling out on Pro and Max plans. Hand over the task and Claude does the work. You keep the final say.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/blog/cowork-is-now-claude"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Claude for Small Business launches new workflows, integrations, and training programs</title>
+<link>https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs</link>
+<guid isPermaLink="true">https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs</guid>
+<pubDate>Tue, 15 Sep 2026 12:00:00 +0000</pubDate>
+<description>&lt;p&gt;&lt;img src="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa96d1d8800d47f264507d6_og_claude-for-small-business-launches-new-workflows-integrations-and-training-programs.jpg" alt=""/&gt;&lt;/p&gt;&lt;p&gt;We’re releasing new Claude for Small Business workflows and integrations to help owners run and grow their business, and kicking off the next leg of our Claude SMB Tour.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Claude for Financial Advisors</title>
+<link>https://claude.com/blog/claude-for-financial-advisors</link>
+<guid isPermaLink="true">https://claude.com/blog/claude-for-financial-advisors</guid>
+<pubDate>Mon, 14 Sep 2026 12:00:00 +0000</pubDate>
+<description>&lt;p&gt;&lt;img src="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa81abedc3309638d37d060_og_claude-for-financial-advisors.jpg" alt=""/&gt;&lt;/p&gt;&lt;p&gt;Financial advisors can now connect Claude to the custodians, portfolio platforms, CRMs, and planning tools they depend on, along with new skills tailored to the daily work of a financial advisor.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/blog/claude-for-financial-advisors"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Building commerce agents with Claude</title>
+<link>https://claude.com/blog/claude-for-commerce-agents</link>
+<guid isPermaLink="true">https://claude.com/blog/claude-for-commerce-agents</guid>
+<pubDate>Wed, 02 Sep 2026 12:00:00 +0000</pubDate>
+<description>&lt;p&gt;We&amp;#x27;re launching a blueprint to help build commerce agents on Claude. It contains the harnesses, patterns, and guardrails an engineering team needs to get a commerce agent running in days.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/blog/claude-for-commerce-agents"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Claude for Teachers, now available for U.S. K-12 schools and districts</title>
+<link>https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts</link>
+<guid isPermaLink="true">https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts</guid>
+<pubDate>Fri, 28 Aug 2026 12:00:00 +0000</pubDate>
+<description>&lt;p&gt;&lt;img src="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a91a4ba49d6a66f44cbe768_og_claude-for-teachers-now-available-for-schools-and-districts.jpg" alt=""/&gt;&lt;/p&gt;&lt;p&gt;Starting today, Claude for Teachers is available to U.S. K-12 schools and districts as a free Enterprise offering.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Claude in Chrome is generally available</title>
+<link>https://claude.com/blog/claude-in-chrome-generally-available</link>
+<guid isPermaLink="true">https://claude.com/blog/claude-in-chrome-generally-available</guid>
+<pubDate>Wed, 26 Aug 2026 12:00:00 +0000</pubDate>
+<description>&lt;p&gt;&lt;img src="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69050ff880f9a5c13932b7df_og_claude-for-chrome.jpg" alt=""/&gt;&lt;/p&gt;&lt;p&gt;Claude in Chrome is now available on every paid plan and can work through browser tasks without approving each step, with a safety check on every action. Here&amp;#x27;s how we tested it against prompt injection.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/blog/claude-in-chrome-generally-available"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Claude gets its own browser in Cowork</title>
+<link>https://claude.com/blog/cowork-built-in-browser</link>
+<guid isPermaLink="true">https://claude.com/blog/cowork-built-in-browser</guid>
+<pubDate>Wed, 26 Aug 2026 12:00:00 +0000</pubDate>
+<description>&lt;p&gt;&lt;img src="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69027547e3e5c830cb5d0a37_og_claude-is-now-available-in-microsoft-365-copilot.jpg" alt=""/&gt;&lt;/p&gt;&lt;p&gt;Claude now has its own browser inside the Cowork desktop app. It opens sites, reads pages, and works in them while you keep working. No extension, and your own tabs and logins stay out of it.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/blog/cowork-built-in-browser"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Claude's memory works everywhere, and you decide what's in it</title>
+<link>https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it</link>
+<guid isPermaLink="true">https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it</guid>
+<pubDate>Tue, 25 Aug 2026 12:00:00 +0000</pubDate>
+<description>&lt;p&gt;&lt;img src="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a8dcb60a9e2ed84590a8b9e_og_claudes-memory-works-everywhere-and-you-decide-whats-in-it.jpg" alt=""/&gt;&lt;/p&gt;&lt;p&gt;Wherever you work with Claude from Anthropic, it starts from what it already knows about you.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders</title>
+<link>https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders</link>
+<guid isPermaLink="true">https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders</guid>
+<pubDate>Fri, 21 Aug 2026 12:00:00 +0000</pubDate>
+<description>&lt;p&gt;&lt;img src="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69f398245c0b3933c7940d49_og_claude-security-public-beta%20(1).jpg" alt=""/&gt;&lt;/p&gt;&lt;p&gt;We’re sharing an update on our efforts to help more teams leverage frontier capabilities for cyber defense.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Anthropic’s approach to teaching and learning AI</title>
+<link>https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai</link>
+<guid isPermaLink="true">https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai</guid>
+<pubDate>Thu, 20 Aug 2026 12:00:00 +0000</pubDate>
+<description>&lt;p&gt;&lt;img src="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a87352164143e387edeb760_og_anthropics-approach-to-teaching-and-learning-ai.jpg" alt=""/&gt;&lt;/p&gt;&lt;p&gt;Claude Academy gives users the educational tools they need to learn how to use AI effectively. In this post, we highlight why we’re launching it and how our own approach to teaching and learning influenced its development.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Build production agents with computer use, the Skills API, and the Files API</title>
+<link>https://claude.com/blog/computer-use-skills-api-files-api</link>
+<guid isPermaLink="true">https://claude.com/blog/computer-use-skills-api-files-api</guid>
+<pubDate>Thu, 20 Aug 2026 12:00:00 +0000</pubDate>
+<description>&lt;p&gt;&lt;img src="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69051360369f8c1bb58fc2fe_og_build-artifacts.jpg" alt=""/&gt;&lt;/p&gt;&lt;p&gt;Computer use, the Skills API, and the Files API are generally available on the Claude Platform today. Computer use also adds a new browser use tool for agents that work in web applications. Together they let you build agents that operate software, apply your team&amp;#x27;s expertise, and return finished files.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/blog/computer-use-skills-api-files-api"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+</channel>
+</rss>
