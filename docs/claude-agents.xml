@@ -6,7 +6,14 @@
 <description>Agents posts from the Claude blog.</description>
 <atom:link href="https://carpenterinkc.github.io/feeds/claude-agents.xml" rel="self" type="application/rss+xml"/>
 <language>en</language>
-<lastBuildDate>Tue, 29 Sep 2026 12:33:28 +0000</lastBuildDate>
+<lastBuildDate>Tue, 29 Sep 2026 15:29:42 +0000</lastBuildDate>
+<item>
+<title>Agents you can coach: how Asana builds human-agent teams with Claude</title>
+<link>https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude</link>
+<guid isPermaLink="true">https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude</guid>
+<pubDate>Tue, 29 Sep 2026 12:00:00 +0000</pubDate>
+<description>&lt;p&gt;&lt;img src="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6abbce678437b509bfe08237_og_agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude.jpg" alt=""/&gt;&lt;/p&gt;&lt;p&gt;Arnab Bose, Chief Product Officer at Asana, on how Asana runs Claude-powered AI agents as teammates with scoped roles, shared memory, and work that everyone can see.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Giving companies more control over their AI agents, with NVIDIA</title>
 <link>https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia</link>
