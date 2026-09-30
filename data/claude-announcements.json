@@ -44,6 +44,15 @@
     "title": "Claude for Financial Advisors",
     "url": "https://claude.com/blog/claude-for-financial-advisors"
   },
+  "https://claude.com/blog/claude-for-government-is-now-generally-available": {
+    "date": "2026-09-30T12:00:00+00:00",
+    "description": "Claude Code CLI and Claude for Microsoft 365 also now available in early access.",
+    "first_seen": "2026-09-30T18:29:44+00:00",
+    "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6abd4814ec76c56b4489bc80_og_claude-for-government-is-now-generally-available.jpg",
+    "published": "",
+    "title": "Claude for Government is now generally available",
+    "url": "https://claude.com/blog/claude-for-government-is-now-generally-available"
+  },
   "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs": {
     "date": "2026-09-15T12:00:00+00:00",
     "description": "We\u2019re releasing new Claude for Small Business workflows and integrations to help owners run and grow their business, and kicking off the next leg of our Claude SMB Tour.",
