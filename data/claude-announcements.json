@@ -26,6 +26,15 @@
     "title": "Build plugins for Claude",
     "url": "https://claude.com/blog/build-plugins-for-claude"
   },
+  "https://claude.com/blog/claude-code-mods": {
+    "date": "2026-10-01T12:00:00+00:00",
+    "description": "Mods are small TypeScript functions that change how Claude Code works. Rewrite prompts, block risky commands, add custom UI, or replace built-in features. Write one yourself or ask Claude Code to write it, then share it as a plugin.",
+    "first_seen": "2026-10-01T18:32:09+00:00",
+    "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6abe945ed70dd868af96f9df_og_claude-code-mods.jpg",
+    "published": "",
+    "title": "Customize Claude Code with mods",
+    "url": "https://claude.com/blog/claude-code-mods"
+  },
   "https://claude.com/blog/claude-for-commerce-agents": {
     "date": "2026-09-02T12:00:00+00:00",
     "description": "We're launching a blueprint to help build commerce agents on Claude. It contains the harnesses, patterns, and guardrails an engineering team needs to get a commerce agent running in days.",

@@ -6,7 +6,14 @@
 <description>Product announcements from the Claude blog.</description>
 <atom:link href="https://carpenterinkc.github.io/feeds/claude-announcements.xml" rel="self" type="application/rss+xml"/>
 <language>en</language>
-<lastBuildDate>Thu, 01 Oct 2026 15:29:18 +0000</lastBuildDate>
+<lastBuildDate>Thu, 01 Oct 2026 18:32:10 +0000</lastBuildDate>
+<item>
+<title>Customize Claude Code with mods</title>
+<link>https://claude.com/blog/claude-code-mods</link>
+<guid isPermaLink="true">https://claude.com/blog/claude-code-mods</guid>
+<pubDate>Thu, 01 Oct 2026 12:00:00 +0000</pubDate>
+<description>&lt;p&gt;&lt;img src="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6abe945ed70dd868af96f9df_og_claude-code-mods.jpg" alt=""/&gt;&lt;/p&gt;&lt;p&gt;Mods are small TypeScript functions that change how Claude Code works. Rewrite prompts, block risky commands, add custom UI, or replace built-in features. Write one yourself or ask Claude Code to write it, then share it as a plugin.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/blog/claude-code-mods"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Claude for Government is now generally available</title>
 <link>https://claude.com/blog/claude-for-government-is-now-generally-available</link>
