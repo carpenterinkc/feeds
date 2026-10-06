@@ -31,6 +31,7 @@ DOCS = ROOT / "docs"
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) feed-factory/1.0"
 MAX_ITEMS = 50          # items kept in each feed
 MAX_DETAIL_FETCHES = 20  # new posts per feed per run that get a description
+HEADING_TAGS = {"h1", "h2", "h3", "h4", "h5", "h6"}
 DATE_RE = re.compile(
     r"(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.? +\d{1,2}, +\d{4}"
 )
@@ -59,9 +60,11 @@ def parse_date(text: str) -> datetime | None:
 class ListingParser(HTMLParser):
     """Collects post links in page order.
 
-    Title: the nearest Finsweet 'heading' field, else data-cta-copy, else link text.
+    Title: the nearest Finsweet 'heading' field, else data-cta-copy, else a
+    heading tag (h1-h6) inside the link, else link text.
     Date: the nearest 'date' field, else any date-looking text since the last post.
-    Works on Webflow blog listings and degrades gracefully elsewhere.
+    Works on Webflow blog listings and on card-style listings where the whole
+    card is one link (claude.com/resources since Oct 2026).
     """
 
     def __init__(self, base: str, pattern: re.Pattern):
@@ -76,6 +79,8 @@ class ListingParser(HTMLParser):
         self._recent_text = ""
         self._in_link = None
         self._link_text = ""
+        self._link_heading = ""
+        self._in_hx = 0
 
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
@@ -94,15 +99,21 @@ class ListingParser(HTMLParser):
                 self._in_link = url
                 self._link_text = ""
                 self._cta = a.get("data-cta-copy", "")
+                self._link_heading = ""
+        if self._in_link and tag in HEADING_TAGS:
+            self._in_hx += 1
 
     def handle_endtag(self, tag):
+        if self._in_hx and tag in HEADING_TAGS:
+            self._in_hx -= 1
         if self._field:
             self._depth -= 1
             if self._depth <= 0:
                 self._field = None
         if tag == "a" and self._in_link:
             url = self._in_link
-            title = (self._heading or self._cta or self._link_text).strip()
+            title = self._heading or self._cta or self._link_heading or self._link_text
+            title = re.sub(r"\s+", " ", title).strip()
             date = parse_date(self._date) or parse_date(self._recent_text)
             post = self.posts.get(url)
             if post is None:
@@ -113,6 +124,7 @@ class ListingParser(HTMLParser):
                     post["title"] = title
                 post["date"] = post["date"] or date
             self._in_link = None
+            self._in_hx = 0
             self._recent_text = ""
 
     def handle_data(self, data):
@@ -122,7 +134,14 @@ class ListingParser(HTMLParser):
             self._date += data
         if self._in_link:
             self._link_text += data
+            if self._in_hx:
+                self._link_heading += data
         self._recent_text = (self._recent_text + " " + data)[-400:]
+
+
+def slug_of(url: str) -> str:
+    """Last path segment, used to recognise the same post at a new address."""
+    return url.rstrip("/").rsplit("/", 1)[-1]
 
 
 def page_meta(url: str) -> dict:
@@ -199,8 +218,12 @@ def run_feed(feed: dict, pages_base: str) -> None:
     state = json.loads(state_file.read_text()) if state_file.exists() else {}
     now = datetime.now(timezone.utc).replace(microsecond=0)
     fetched = 0
+    # Match on the post's slug too, so a site moving its URLs
+    # (claude.com/blog/x -> claude.com/resources/articles/x) doesn't re-post
+    # everything as new. The original URL stays the item's link and guid.
+    by_slug = {slug_of(u): r for u, r in state.items()}
     for p in found:
-        rec = state.get(p["url"])
+        rec = state.get(p["url"]) or by_slug.get(slug_of(p["url"]))
         if rec is None:
             rec = {"url": p["url"], "first_seen": now.isoformat()}
             if fetched < MAX_DETAIL_FETCHES:

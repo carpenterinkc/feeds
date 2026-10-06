@@ -7,13 +7,13 @@ pages_base = "https://carpenterinkc.github.io/feeds"
 [[feed]]
 slug = "claude-announcements"
 title = "Claude Blog: Product announcements"
-url = "https://claude.com/blog-category/announcements"
+url = "https://claude.com/resources/articles?categories=product-announcements"
 description = "Product announcements from the Claude blog."
-link_pattern = '^https://claude\.com/blog/[^/]+/?$'
+link_pattern = '^https://claude\.com/resources/articles/[^/]+/?$'
 
 [[feed]]
 slug = "claude-agents"
 title = "Claude Blog: Agents"
-url = "https://claude.com/blog-category/agents"
+url = "https://claude.com/resources/articles?use-cases=agents"
 description = "Agents posts from the Claude blog."
-link_pattern = '^https://claude\.com/blog/[^/]+/?$'
+link_pattern = '^https://claude\.com/resources/articles/[^/]+/?$'
