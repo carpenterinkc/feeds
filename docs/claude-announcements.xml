@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>Claude Blog: Product announcements</title>
-<link>https://claude.com/blog-category/announcements</link>
+<link>https://claude.com/resources/articles?categories=product-announcements</link>
 <description>Product announcements from the Claude blog.</description>
 <atom:link href="https://carpenterinkc.github.io/feeds/claude-announcements.xml" rel="self" type="application/rss+xml"/>
 <language>en</language>
-<lastBuildDate>Tue, 06 Oct 2026 12:33:27 +0000</lastBuildDate>
+<lastBuildDate>Tue, 06 Oct 2026 15:39:10 +0000</lastBuildDate>
 <item>
 <title>Customize Claude Code with mods</title>
 <link>https://claude.com/blog/claude-code-mods</link>
@@ -20,6 +20,20 @@
 <guid isPermaLink="true">https://claude.com/blog/claude-for-government-is-now-generally-available</guid>
 <pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate>
 <description>&lt;p&gt;&lt;img src="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6abd4814ec76c56b4489bc80_og_claude-for-government-is-now-generally-available.jpg" alt=""/&gt;&lt;/p&gt;&lt;p&gt;Claude Code CLI and Claude for Microsoft 365 also now available in early access.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/blog/claude-for-government-is-now-generally-available"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>How Anthropic's sales team rebuilt inbound with Claude Managed Agents</title>
+<link>https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents</link>
+<guid isPermaLink="true">https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents</guid>
+<pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate>
+<description>&lt;p&gt;&lt;img src="https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents/opengraph-image/og" alt=""/&gt;&lt;/p&gt;&lt;p&gt;How a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Giving companies more control over their AI agents, with NVIDIA</title>
+<link>https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia</link>
+<guid isPermaLink="true">https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia</guid>
+<pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate>
+<description>&lt;p&gt;&lt;img src="https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia/opengraph-image/og" alt=""/&gt;&lt;/p&gt;&lt;p&gt;Anthropic has collaborated with NVIDIA to bring additional layers of security and control to the agent stack of its Open Agent Safety Platform.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Build plugins for Claude</title>
@@ -43,6 +57,13 @@
 <description>&lt;p&gt;&lt;img src="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690515665479bb5c903bedd8_og_evaluate-prompts.jpg" alt=""/&gt;&lt;/p&gt;&lt;p&gt;The Claude Marketplace brings plugins, connectors, agents, and service partners into one place. Find the tools and services to do more with Claude, or list what you&amp;#x27;ve built to reach teams using Claude.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/blog/claude-marketplace"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
+<title>How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace</title>
+<link>https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace</link>
+<guid isPermaLink="true">https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace</guid>
+<pubDate>Wed, 23 Sep 2026 12:00:00 +0000</pubDate>
+<description>&lt;p&gt;&lt;img src="https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace/opengraph-image/og" alt=""/&gt;&lt;/p&gt;&lt;p&gt;CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot put their Snowflake spend on their Anthropic commitment. See how companies building on Claude use budget they&amp;#x27;ve already committed to pay for the tools they run on.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
 <title>Projects redesigned: from folder to conversation</title>
 <link>https://claude.com/blog/projects-redesigned</link>
 <guid isPermaLink="true">https://claude.com/blog/projects-redesigned</guid>
@@ -62,6 +83,13 @@
 <guid isPermaLink="true">https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs</guid>
 <pubDate>Tue, 15 Sep 2026 12:00:00 +0000</pubDate>
 <description>&lt;p&gt;&lt;img src="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa96d1d8800d47f264507d6_og_claude-for-small-business-launches-new-workflows-integrations-and-training-programs.jpg" alt=""/&gt;&lt;/p&gt;&lt;p&gt;We’re releasing new Claude for Small Business workflows and integrations to help owners run and grow their business, and kicking off the next leg of our Claude SMB Tour.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Bringing Salesforce into Claude</title>
+<link>https://claude.com/resources/articles/salesforce-in-claude</link>
+<guid isPermaLink="true">https://claude.com/resources/articles/salesforce-in-claude</guid>
+<pubDate>Tue, 15 Sep 2026 12:00:00 +0000</pubDate>
+<description>&lt;p&gt;&lt;img src="https://claude.com/resources/articles/salesforce-in-claude/opengraph-image/og" alt=""/&gt;&lt;/p&gt;&lt;p&gt;Sellers can now research companies, prep for calls, review pipeline, and draft CRM updates with Anthropic&amp;#x27;s new Salesforce in Claude plugin.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/resources/articles/salesforce-in-claude"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Claude for Financial Advisors</title>

@@ -151,5 +151,41 @@
     "published": "",
     "title": "Projects redesigned: from folder to conversation",
     "url": "https://claude.com/blog/projects-redesigned"
+  },
+  "https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia": {
+    "date": "2026-09-28T12:00:00+00:00",
+    "description": "Anthropic has collaborated with NVIDIA to bring additional layers of security and control to the agent stack of its Open Agent Safety Platform.",
+    "first_seen": "2026-10-06T15:39:04+00:00",
+    "image": "https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia/opengraph-image/og",
+    "published": "2026-09-28",
+    "title": "Giving companies more control over their AI agents, with NVIDIA",
+    "url": "https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia"
+  },
+  "https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents": {
+    "date": "2026-09-30T12:00:00+00:00",
+    "description": "How a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works",
+    "first_seen": "2026-10-06T15:39:04+00:00",
+    "image": "https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents/opengraph-image/og",
+    "published": "2026-09-30",
+    "title": "How Anthropic's sales team rebuilt inbound with Claude Managed Agents",
+    "url": "https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents"
+  },
+  "https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace": {
+    "date": "2026-09-23T12:00:00+00:00",
+    "description": "CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot put their Snowflake spend on their Anthropic commitment. See how companies building on Claude use budget they've already committed to pay for the tools they run on.",
+    "first_seen": "2026-10-06T15:39:04+00:00",
+    "image": "https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace/opengraph-image/og",
+    "published": "2026-09-23",
+    "title": "How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace",
+    "url": "https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace"
+  },
+  "https://claude.com/resources/articles/salesforce-in-claude": {
+    "date": "2026-09-15T12:00:00+00:00",
+    "description": "Sellers can now research companies, prep for calls, review pipeline, and draft CRM updates with Anthropic's new Salesforce in Claude plugin.",
+    "first_seen": "2026-10-06T15:39:04+00:00",
+    "image": "https://claude.com/resources/articles/salesforce-in-claude/opengraph-image/og",
+    "published": "2026-09-15",
+    "title": "Bringing Salesforce into Claude",
+    "url": "https://claude.com/resources/articles/salesforce-in-claude"
   }
 }
