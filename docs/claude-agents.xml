@@ -6,7 +6,7 @@
 <description>Agents posts from the Claude blog.</description>
 <atom:link href="https://carpenterinkc.github.io/feeds/claude-agents.xml" rel="self" type="application/rss+xml"/>
 <language>en</language>
-<lastBuildDate>Wed, 07 Oct 2026 18:32:21 +0000</lastBuildDate>
+<lastBuildDate>Wed, 07 Oct 2026 21:28:01 +0000</lastBuildDate>
 <item>
 <title>Claude now works with Google Docs, Sheets, and Slides</title>
 <link>https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides</link>
@@ -57,7 +57,7 @@
 <description>&lt;p&gt;&lt;img src="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6abbce678437b509bfe08237_og_agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude.jpg" alt=""/&gt;&lt;/p&gt;&lt;p&gt;Arnab Bose, Chief Product Officer at Asana, on how Asana runs Claude-powered AI agents as teammates with scoped roles, shared memory, and work that everyone can see.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
-<title>Giving companies more control over their AI agents, with NVIDIA</title>
+<title>A new approach to agent security with Claude Managed Agents and NVIDIA</title>
 <link>https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia</link>
 <guid isPermaLink="true">https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia</guid>
 <pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate>

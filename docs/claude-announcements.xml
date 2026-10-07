@@ -6,7 +6,7 @@
 <description>Product announcements from the Claude blog.</description>
 <atom:link href="https://carpenterinkc.github.io/feeds/claude-announcements.xml" rel="self" type="application/rss+xml"/>
 <language>en</language>
-<lastBuildDate>Wed, 07 Oct 2026 18:32:21 +0000</lastBuildDate>
+<lastBuildDate>Wed, 07 Oct 2026 21:28:01 +0000</lastBuildDate>
 <item>
 <title>Claude now works with Google Docs, Sheets, and Slides</title>
 <link>https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides</link>
@@ -50,7 +50,7 @@
 <description>&lt;p&gt;&lt;img src="https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents/opengraph-image/og" alt=""/&gt;&lt;/p&gt;&lt;p&gt;How a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
-<title>Giving companies more control over their AI agents, with NVIDIA</title>
+<title>A new approach to agent security with Claude Managed Agents and NVIDIA</title>
 <link>https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia</link>
 <guid isPermaLink="true">https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia</guid>
 <pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate>
