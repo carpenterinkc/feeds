@@ -198,7 +198,7 @@
     "url": "https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases"
   },
   "https://claude.com/resources/articles/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk": {
-    "date": "2026-10-07T12:00:00+00:00",
+    "date": "2026-10-05T12:00:00+00:00",
     "description": "See how Cresta built Conductor, an agent that builds other agents, on the Claude Agent SDK, and how the team evaluates it with every new Claude model.",
     "first_seen": "2026-10-06T15:39:11+00:00",
     "image": "https://claude.com/resources/articles/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk/opengraph-image/og",
