@@ -188,8 +188,17 @@
     "title": "How Anthropic's sales team rebuilt inbound with Claude Managed Agents",
     "url": "https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents"
   },
+  "https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases": {
+    "date": "2026-10-06T12:00:00+00:00",
+    "description": "Security teams at Comcast and Booz Allen used Claude Mythos-class models through Project Glasswing to find, validate, and fix vulnerabilities their existing scanners missed.",
+    "first_seen": "2026-10-07T15:38:40+00:00",
+    "image": "https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases/opengraph-image/og",
+    "published": "2026-10-06",
+    "title": "How Comcast and Booz Allen use Claude Mythos to find exploit chains and secure their codebases",
+    "url": "https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases"
+  },
   "https://claude.com/resources/articles/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk": {
-    "date": "2026-10-05T12:00:00+00:00",
+    "date": "2026-10-07T12:00:00+00:00",
     "description": "See how Cresta built Conductor, an agent that builds other agents, on the Claude Agent SDK, and how the team evaluates it with every new Claude model.",
     "first_seen": "2026-10-06T15:39:11+00:00",
     "image": "https://claude.com/resources/articles/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk/opengraph-image/og",

@@ -6,7 +6,7 @@
 <description>Product announcements from the Claude blog.</description>
 <atom:link href="https://carpenterinkc.github.io/feeds/claude-announcements.xml" rel="self" type="application/rss+xml"/>
 <language>en</language>
-<lastBuildDate>Wed, 07 Oct 2026 12:35:38 +0000</lastBuildDate>
+<lastBuildDate>Wed, 07 Oct 2026 15:38:40 +0000</lastBuildDate>
 <item>
 <title>Claude now works with Google Docs, Sheets, and Slides</title>
 <link>https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides</link>
@@ -20,6 +20,13 @@
 <guid isPermaLink="true">https://claude.com/resources/articles/were-expanding-the-claude-startups-program-to-help-founders-build</guid>
 <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
 <description>&lt;p&gt;&lt;img src="https://claude.com/resources/articles/were-expanding-the-claude-startups-program-to-help-founders-build/opengraph-image/og" alt=""/&gt;&lt;/p&gt;&lt;p&gt;A year of the Claude Team plan, API credits, special offers on tools that help with running an AI-native company, and more.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/resources/articles/were-expanding-the-claude-startups-program-to-help-founders-build"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>How Comcast and Booz Allen use Claude Mythos to find exploit chains and secure their codebases</title>
+<link>https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases</link>
+<guid isPermaLink="true">https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases</guid>
+<pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
+<description>&lt;p&gt;&lt;img src="https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases/opengraph-image/og" alt=""/&gt;&lt;/p&gt;&lt;p&gt;Security teams at Comcast and Booz Allen used Claude Mythos-class models through Project Glasswing to find, validate, and fix vulnerabilities their existing scanners missed.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Customize Claude Code with mods</title>

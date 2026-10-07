@@ -188,6 +188,15 @@
     "title": "How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace",
     "url": "https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace"
   },
+  "https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases": {
+    "date": "2026-10-06T12:00:00+00:00",
+    "description": "Security teams at Comcast and Booz Allen used Claude Mythos-class models through Project Glasswing to find, validate, and fix vulnerabilities their existing scanners missed.",
+    "first_seen": "2026-10-07T15:38:38+00:00",
+    "image": "https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases/opengraph-image/og",
+    "published": "2026-10-06",
+    "title": "How Comcast and Booz Allen use Claude Mythos to find exploit chains and secure their codebases",
+    "url": "https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases"
+  },
   "https://claude.com/resources/articles/salesforce-in-claude": {
     "date": "2026-09-15T12:00:00+00:00",
     "description": "Sellers can now research companies, prep for calls, review pipeline, and draft CRM updates with Anthropic's new Salesforce in Claude plugin.",
