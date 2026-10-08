@@ -6,7 +6,7 @@
 <description>Agents posts from the Claude blog.</description>
 <atom:link href="https://carpenterinkc.github.io/feeds/claude-agents.xml" rel="self" type="application/rss+xml"/>
 <language>en</language>
-<lastBuildDate>Thu, 08 Oct 2026 03:28:33 +0000</lastBuildDate>
+<lastBuildDate>Thu, 08 Oct 2026 06:35:21 +0000</lastBuildDate>
 <item>
 <title>Claude now works with Google Docs, Sheets, and Slides</title>
 <link>https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides</link>
