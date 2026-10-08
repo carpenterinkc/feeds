@@ -6,7 +6,7 @@
 <description>Product announcements from the Claude blog.</description>
 <atom:link href="https://carpenterinkc.github.io/feeds/claude-announcements.xml" rel="self" type="application/rss+xml"/>
 <language>en</language>
-<lastBuildDate>Thu, 08 Oct 2026 09:29:44 +0000</lastBuildDate>
+<lastBuildDate>Thu, 08 Oct 2026 12:35:51 +0000</lastBuildDate>
 <item>
 <title>Claude now works with Google Docs, Sheets, and Slides</title>
 <link>https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides</link>
