@@ -6,13 +6,20 @@
 <description>Product announcements from the Claude blog.</description>
 <atom:link href="https://carpenterinkc.github.io/feeds/claude-announcements.xml" rel="self" type="application/rss+xml"/>
 <language>en</language>
-<lastBuildDate>Fri, 09 Oct 2026 12:32:39 +0000</lastBuildDate>
+<lastBuildDate>Fri, 09 Oct 2026 15:28:45 +0000</lastBuildDate>
 <item>
 <title>Build live dashboards and animate explainers with Claude</title>
 <link>https://claude.com/resources/articles/dashboards-and-motion</link>
 <guid isPermaLink="true">https://claude.com/resources/articles/dashboards-and-motion</guid>
 <pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
 <description>&lt;p&gt;&lt;img src="https://claude.com/resources/articles/dashboards-and-motion/opengraph-image/og" alt=""/&gt;&lt;/p&gt;&lt;p&gt;Claude Dashboards and Claude Motion are in beta. Docs, Slides, and Design are now on every plan, including Free.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/resources/articles/dashboards-and-motion"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>How Block orchestrates Claude Fable across thousands of pull requests</title>
+<link>https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests</link>
+<guid isPermaLink="true">https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests</guid>
+<pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
+<description>&lt;p&gt;&lt;img src="https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests/opengraph-image/og" alt=""/&gt;&lt;/p&gt;&lt;p&gt;Bradley Axen, Head of AI Capabilities at Block, on why safeguards are a critical part of deploying frontier intelligence responsibly.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Claude now works with Google Docs, Sheets, and Slides</title>

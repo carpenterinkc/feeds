@@ -188,6 +188,15 @@
     "title": "How Anthropic's sales team rebuilt inbound with Claude Managed Agents",
     "url": "https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents"
   },
+  "https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests": {
+    "date": "2026-10-08T12:00:00+00:00",
+    "description": "Bradley Axen, Head of AI Capabilities at Block, on why safeguards are a critical part of deploying frontier intelligence responsibly.",
+    "first_seen": "2026-10-09T15:28:44+00:00",
+    "image": "https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests/opengraph-image/og",
+    "published": "2026-10-08",
+    "title": "How Block orchestrates Claude Fable across thousands of pull requests",
+    "url": "https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests"
+  },
   "https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace": {
     "date": "2026-09-23T12:00:00+00:00",
     "description": "CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot put their Snowflake spend on their Anthropic commitment. See how companies building on Claude use budget they've already committed to pay for the tools they run on.",
