@@ -6,7 +6,7 @@
 <description>Product announcements from the Claude blog.</description>
 <atom:link href="https://carpenterinkc.github.io/feeds/claude-announcements.xml" rel="self" type="application/rss+xml"/>
 <language>en</language>
-<lastBuildDate>Thu, 08 Oct 2026 21:28:35 +0000</lastBuildDate>
+<lastBuildDate>Fri, 09 Oct 2026 00:40:24 +0000</lastBuildDate>
 <item>
 <title>Build live dashboards and animate explainers with Claude</title>
 <link>https://claude.com/resources/articles/dashboards-and-motion</link>

@@ -179,6 +179,15 @@
     "title": "Claude now works with Google Docs, Sheets, and Slides",
     "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides"
   },
+  "https://claude.com/resources/articles/dashboards-and-motion": {
+    "date": "2026-10-08T12:00:00+00:00",
+    "description": "Claude Dashboards and Claude Motion are in beta. Docs, Slides, and Design are now on every plan, including Free.",
+    "first_seen": "2026-10-09T00:40:24+00:00",
+    "image": "https://claude.com/resources/articles/dashboards-and-motion/opengraph-image/og",
+    "published": "2026-10-08",
+    "title": "Build live dashboards and animate explainers with Claude",
+    "url": "https://claude.com/resources/articles/dashboards-and-motion"
+  },
   "https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents": {
     "date": "2026-09-30T12:00:00+00:00",
     "description": "How a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works",
