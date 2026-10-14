@@ -224,6 +224,15 @@
     "title": "Bringing Salesforce into Claude",
     "url": "https://claude.com/resources/articles/salesforce-in-claude"
   },
+  "https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai": {
+    "date": "2026-10-13T12:00:00+00:00",
+    "description": "The importance of monitoring and observability for AI agents, and how Uber's open-source tooling works alongside Anthropic's Enterprise Frontier Safeguards.",
+    "first_seen": "2026-10-14T18:47:54+00:00",
+    "image": "https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai/opengraph-image/og",
+    "published": "2026-10-13",
+    "title": "Uber's CISO on building an insider threat program for AI",
+    "url": "https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai"
+  },
   "https://claude.com/resources/articles/were-expanding-the-claude-startups-program-to-help-founders-build": {
     "date": "2026-10-06T12:00:00+00:00",
     "description": "A year of the Claude Team plan, API credits, special offers on tools that help with running an AI-native company, and more.",

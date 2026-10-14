@@ -6,7 +6,14 @@
 <description>Product announcements from the Claude blog.</description>
 <atom:link href="https://carpenterinkc.github.io/feeds/claude-announcements.xml" rel="self" type="application/rss+xml"/>
 <language>en</language>
-<lastBuildDate>Wed, 14 Oct 2026 15:45:26 +0000</lastBuildDate>
+<lastBuildDate>Wed, 14 Oct 2026 18:47:55 +0000</lastBuildDate>
+<item>
+<title>Uber's CISO on building an insider threat program for AI</title>
+<link>https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai</link>
+<guid isPermaLink="true">https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai</guid>
+<pubDate>Tue, 13 Oct 2026 12:00:00 +0000</pubDate>
+<description>&lt;p&gt;&lt;img src="https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai/opengraph-image/og" alt=""/&gt;&lt;/p&gt;&lt;p&gt;The importance of monitoring and observability for AI agents, and how Uber&amp;#x27;s open-source tooling works alongside Anthropic&amp;#x27;s Enterprise Frontier Safeguards.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Build live dashboards and animate explainers with Claude</title>
 <link>https://claude.com/resources/articles/dashboards-and-motion</link>
