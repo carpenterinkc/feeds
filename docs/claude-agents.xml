@@ -6,7 +6,7 @@
 <description>Agents posts from the Claude blog.</description>
 <atom:link href="https://carpenterinkc.github.io/feeds/claude-agents.xml" rel="self" type="application/rss+xml"/>
 <language>en</language>
-<lastBuildDate>Thu, 15 Oct 2026 12:51:08 +0000</lastBuildDate>
+<lastBuildDate>Thu, 15 Oct 2026 15:43:19 +0000</lastBuildDate>
 <item>
 <title>Build live dashboards and animate explainers with Claude</title>
 <link>https://claude.com/resources/articles/dashboards-and-motion</link>
