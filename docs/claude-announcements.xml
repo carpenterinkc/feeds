@@ -6,7 +6,14 @@
 <description>Product announcements from the Claude blog.</description>
 <atom:link href="https://carpenterinkc.github.io/feeds/claude-announcements.xml" rel="self" type="application/rss+xml"/>
 <language>en</language>
-<lastBuildDate>Thu, 15 Oct 2026 18:46:32 +0000</lastBuildDate>
+<lastBuildDate>Thu, 15 Oct 2026 21:40:31 +0000</lastBuildDate>
+<item>
+<title>Code Review is now generally available</title>
+<link>https://claude.com/resources/articles/code-review-is-now-generally-available</link>
+<guid isPermaLink="true">https://claude.com/resources/articles/code-review-is-now-generally-available</guid>
+<pubDate>Thu, 15 Oct 2026 12:00:00 +0000</pubDate>
+<description>&lt;p&gt;&lt;img src="https://claude.com/resources/articles/code-review-is-now-generally-available/opengraph-image/og" alt=""/&gt;&lt;/p&gt;&lt;p&gt;Catch more bugs before they reach production. Code Review is generally available for Claude Team and Enterprise organizations.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/resources/articles/code-review-is-now-generally-available"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Uber's CISO on building an insider threat program for AI</title>
 <link>https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai</link>
