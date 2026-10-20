@@ -6,7 +6,7 @@
 <description>Product announcements from the Claude blog.</description>
 <atom:link href="https://carpenterinkc.github.io/feeds/claude-announcements.xml" rel="self" type="application/rss+xml"/>
 <language>en</language>
-<lastBuildDate>Tue, 20 Oct 2026 09:39:42 +0000</lastBuildDate>
+<lastBuildDate>Tue, 20 Oct 2026 12:49:33 +0000</lastBuildDate>
 <item>
 <title>Code Review is now generally available</title>
 <link>https://claude.com/resources/articles/code-review-is-now-generally-available</link>
