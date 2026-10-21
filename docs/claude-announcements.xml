@@ -6,13 +6,27 @@
 <description>Product announcements from the Claude blog.</description>
 <atom:link href="https://carpenterinkc.github.io/feeds/claude-announcements.xml" rel="self" type="application/rss+xml"/>
 <language>en</language>
-<lastBuildDate>Wed, 21 Oct 2026 18:45:37 +0000</lastBuildDate>
+<lastBuildDate>Wed, 21 Oct 2026 21:40:49 +0000</lastBuildDate>
 <item>
 <title>Claude Security now scans continuously and tracks fixes</title>
 <link>https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes</link>
 <guid isPermaLink="true">https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes</guid>
 <pubDate>Wed, 21 Oct 2026 12:00:00 +0000</pubDate>
 <description>&lt;p&gt;&lt;img src="https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes/opengraph-image/og" alt=""/&gt;&lt;/p&gt;&lt;p&gt;Claude Security now watches your repositories as code changes, tracks findings until they’re fixed, learns from the context your team adds, and connects to your tools through an API and MCP. Available in public beta for Claude Enterprise customers.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Introducing Claude Duet</title>
+<link>https://claude.com/resources/articles/claude-duet</link>
+<guid isPermaLink="true">https://claude.com/resources/articles/claude-duet</guid>
+<pubDate>Wed, 21 Oct 2026 12:00:00 +0000</pubDate>
+<description>&lt;p&gt;&lt;img src="https://claude.com/resources/articles/claude-duet/opengraph-image/og" alt=""/&gt;&lt;/p&gt;&lt;p&gt;Claude Duet is a new app where Claude works as a proactive agent. The research preview opens by waitlist today for Pro and Max subscribers in the US.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/resources/articles/claude-duet"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>HCLTech joins the Claude Partner Network as a Global Premier partner</title>
+<link>https://claude.com/resources/articles/hcltech-joins-claude-partner-network</link>
+<guid isPermaLink="true">https://claude.com/resources/articles/hcltech-joins-claude-partner-network</guid>
+<pubDate>Wed, 21 Oct 2026 12:00:00 +0000</pubDate>
+<description>&lt;p&gt;&lt;img src="https://claude.com/resources/articles/hcltech-joins-claude-partner-network/opengraph-image/og" alt=""/&gt;&lt;/p&gt;&lt;p&gt;HCLTech is partnering with Anthropic to bring Claude and Claude Code into the IT systems it runs for banks, hospitals, telecoms, and manufacturers&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/resources/articles/hcltech-joins-claude-partner-network"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Code Review is now generally available</title>

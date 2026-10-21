@@ -152,6 +152,15 @@
     "title": "Projects redesigned: from folder to conversation",
     "url": "https://claude.com/blog/projects-redesigned"
   },
+  "https://claude.com/resources/articles/claude-duet": {
+    "date": "2026-10-21T12:00:00+00:00",
+    "description": "Claude Duet is a new app where Claude works as a proactive agent. The research preview opens by waitlist today for Pro and Max subscribers in the US.",
+    "first_seen": "2026-10-21T21:40:47+00:00",
+    "image": "https://claude.com/resources/articles/claude-duet/opengraph-image/og",
+    "published": "2026-10-21",
+    "title": "Introducing Claude Duet",
+    "url": "https://claude.com/resources/articles/claude-duet"
+  },
   "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides": {
     "date": "2026-10-06T12:00:00+00:00",
     "description": "With our new Claude for Google Workspace add-on and connectors (in beta), bring Claude into your Google files or work on your files directly from Claude.",
@@ -196,6 +205,15 @@
     "published": "2026-09-28",
     "title": "A new approach to agent security with Claude Managed Agents and NVIDIA",
     "url": "https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia"
+  },
+  "https://claude.com/resources/articles/hcltech-joins-claude-partner-network": {
+    "date": "2026-10-21T12:00:00+00:00",
+    "description": "HCLTech is partnering with Anthropic to bring Claude and Claude Code into the IT systems it runs for banks, hospitals, telecoms, and manufacturers",
+    "first_seen": "2026-10-21T21:40:47+00:00",
+    "image": "https://claude.com/resources/articles/hcltech-joins-claude-partner-network/opengraph-image/og",
+    "published": "2026-10-21",
+    "title": "HCLTech joins the Claude Partner Network as a Global Premier partner",
+    "url": "https://claude.com/resources/articles/hcltech-joins-claude-partner-network"
   },
   "https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents": {
     "date": "2026-09-30T12:00:00+00:00",
