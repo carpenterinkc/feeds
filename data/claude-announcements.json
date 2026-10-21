@@ -161,6 +161,15 @@
     "title": "Claude now works with Google Docs, Sheets, and Slides",
     "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides"
   },
+  "https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes": {
+    "date": "2026-10-21T12:00:00+00:00",
+    "description": "Claude Security now watches your repositories as code changes, tracks findings until they\u2019re fixed, learns from the context your team adds, and connects to your tools through an API and MCP. Available in public beta for Claude Enterprise customers.",
+    "first_seen": "2026-10-21T18:45:36+00:00",
+    "image": "https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes/opengraph-image/og",
+    "published": "2026-10-21",
+    "title": "Claude Security now scans continuously and tracks fixes",
+    "url": "https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes"
+  },
   "https://claude.com/resources/articles/code-review-is-now-generally-available": {
     "date": "2026-10-15T12:00:00+00:00",
     "description": "Catch more bugs before they reach production. Code Review is generally available for Claude Team and Enterprise organizations.",
