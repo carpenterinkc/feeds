@@ -161,6 +161,15 @@
     "title": "Build plugins for Claude",
     "url": "https://claude.com/resources/articles/build-plugins-for-claude"
   },
+  "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop": {
+    "date": "2026-10-22T12:00:00+00:00",
+    "description": "When to consider using fewer subagents and how to migrate the into your main loop.",
+    "first_seen": "2026-10-22T18:45:10+00:00",
+    "image": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop/opengraph-image/og",
+    "published": "2026-10-22",
+    "title": "Building agents: When to fold subagents into your main agent loop",
+    "url": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop"
+  },
   "https://claude.com/resources/articles/claude-code-mods": {
     "date": "2026-10-01T12:00:00+00:00",
     "description": "Mods are small TypeScript functions that change how Claude Code works. Rewrite prompts, block risky commands, add custom UI, or replace built-in features. Write one yourself or ask Claude Code to write it, then share it as a plugin.",
