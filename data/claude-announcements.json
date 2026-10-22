@@ -161,6 +161,15 @@
     "title": "Introducing Claude Duet",
     "url": "https://claude.com/resources/articles/claude-duet"
   },
+  "https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed": {
+    "date": "2026-10-22T12:00:00+00:00",
+    "description": "Use Claude Models on Google Cloud (Anthropic managed) to access Claude Platform features with Google Cloud authentication, billing, and commitment retirement.",
+    "first_seen": "2026-10-22T21:38:00+00:00",
+    "image": "https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed/opengraph-image/og",
+    "published": "2026-10-22",
+    "title": "The full Claude Platform, available on Google Cloud",
+    "url": "https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed"
+  },
   "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides": {
     "date": "2026-10-06T12:00:00+00:00",
     "description": "With our new Claude for Google Workspace add-on and connectors (in beta), bring Claude into your Google files or work on your files directly from Claude.",

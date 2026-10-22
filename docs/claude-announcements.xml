@@ -6,7 +6,14 @@
 <description>Product announcements from the Claude blog.</description>
 <atom:link href="https://carpenterinkc.github.io/feeds/claude-announcements.xml" rel="self" type="application/rss+xml"/>
 <language>en</language>
-<lastBuildDate>Thu, 22 Oct 2026 18:45:10 +0000</lastBuildDate>
+<lastBuildDate>Thu, 22 Oct 2026 21:38:01 +0000</lastBuildDate>
+<item>
+<title>The full Claude Platform, available on Google Cloud</title>
+<link>https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed</link>
+<guid isPermaLink="true">https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed</guid>
+<pubDate>Thu, 22 Oct 2026 12:00:00 +0000</pubDate>
+<description>&lt;p&gt;&lt;img src="https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed/opengraph-image/og" alt=""/&gt;&lt;/p&gt;&lt;p&gt;Use Claude Models on Google Cloud (Anthropic managed) to access Claude Platform features with Google Cloud authentication, billing, and commitment retirement.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Introducing Claude Duet</title>
 <link>https://claude.com/resources/articles/claude-duet</link>
