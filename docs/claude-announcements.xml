@@ -6,7 +6,7 @@
 <description>Product announcements from the Claude blog.</description>
 <atom:link href="https://carpenterinkc.github.io/feeds/claude-announcements.xml" rel="self" type="application/rss+xml"/>
 <language>en</language>
-<lastBuildDate>Fri, 23 Oct 2026 06:48:09 +0000</lastBuildDate>
+<lastBuildDate>Fri, 23 Oct 2026 09:40:39 +0000</lastBuildDate>
 <item>
 <title>The full Claude Platform, available on Google Cloud</title>
 <link>https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed</link>
