@@ -170,6 +170,15 @@
     "title": "Introducing Claude Duet",
     "url": "https://claude.com/resources/articles/claude-duet"
   },
+  "https://claude.com/resources/articles/claude-duet-safety-privacy-and-security": {
+    "date": "2026-10-23T21:39:06+00:00",
+    "description": "These are the protections we built into Claude Duet for working across your accounts and acting on your behalf.",
+    "first_seen": "2026-10-23T21:39:06+00:00",
+    "image": "https://claude.com/resources/articles/claude-duet-safety-privacy-and-security/opengraph-image/og",
+    "published": "2026-10-23",
+    "title": "Claude Duet Safety, Privacy, and Security",
+    "url": "https://claude.com/resources/articles/claude-duet-safety-privacy-and-security"
+  },
   "https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed": {
     "date": "2026-10-22T12:00:00+00:00",
     "description": "Use Claude Models on Google Cloud (Anthropic managed) to access Claude Platform features with Google Cloud authentication, billing, and commitment retirement.",
