@@ -6,7 +6,14 @@
 <description>Product announcements from the Claude blog.</description>
 <atom:link href="https://carpenterinkc.github.io/feeds/claude-announcements.xml" rel="self" type="application/rss+xml"/>
 <language>en</language>
-<lastBuildDate>Mon, 26 Oct 2026 16:08:53 +0000</lastBuildDate>
+<lastBuildDate>Mon, 26 Oct 2026 18:53:11 +0000</lastBuildDate>
+<item>
+<title>Expanding Claude for Nonprofits</title>
+<link>https://claude.com/resources/articles/expanding-claude-for-nonprofits</link>
+<guid isPermaLink="true">https://claude.com/resources/articles/expanding-claude-for-nonprofits</guid>
+<pubDate>Mon, 26 Oct 2026 12:00:00 +0000</pubDate>
+<description>&lt;p&gt;&lt;img src="https://claude.com/resources/articles/expanding-claude-for-nonprofits/opengraph-image/og" alt=""/&gt;&lt;/p&gt;&lt;p&gt;Anthropic&amp;#x27;s new Claude for Nonprofits plugin brings new skills to verified nonprofit organizations, taking the operational work that stretches small teams.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/resources/articles/expanding-claude-for-nonprofits"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Claude Duet Safety, Privacy, and Security</title>
 <link>https://claude.com/resources/articles/claude-duet-safety-privacy-and-security</link>

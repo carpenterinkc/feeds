@@ -224,6 +224,15 @@
     "title": "Build live dashboards and animate explainers with Claude",
     "url": "https://claude.com/resources/articles/dashboards-and-motion"
   },
+  "https://claude.com/resources/articles/expanding-claude-for-nonprofits": {
+    "date": "2026-10-26T12:00:00+00:00",
+    "description": "Anthropic's new Claude for Nonprofits plugin brings new skills to verified nonprofit organizations, taking the operational work that stretches small teams.",
+    "first_seen": "2026-10-26T18:53:08+00:00",
+    "image": "https://claude.com/resources/articles/expanding-claude-for-nonprofits/opengraph-image/og",
+    "published": "2026-10-26",
+    "title": "Expanding Claude for Nonprofits",
+    "url": "https://claude.com/resources/articles/expanding-claude-for-nonprofits"
+  },
   "https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia": {
     "date": "2026-09-28T12:00:00+00:00",
     "description": "Anthropic has collaborated with NVIDIA to bring additional layers of security and control to the agent stack of its Open Agent Safety Platform.",
