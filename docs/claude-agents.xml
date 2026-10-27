@@ -6,7 +6,7 @@
 <description>Agents posts from the Claude blog.</description>
 <atom:link href="https://carpenterinkc.github.io/feeds/claude-agents.xml" rel="self" type="application/rss+xml"/>
 <language>en</language>
-<lastBuildDate>Mon, 26 Oct 2026 21:40:07 +0000</lastBuildDate>
+<lastBuildDate>Tue, 27 Oct 2026 00:52:20 +0000</lastBuildDate>
 <item>
 <title>Building agents: When to fold subagents into your main agent loop</title>
 <link>https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop</link>
