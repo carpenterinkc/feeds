@@ -6,7 +6,14 @@
 <description>Product announcements from the Claude blog.</description>
 <atom:link href="https://carpenterinkc.github.io/feeds/claude-announcements.xml" rel="self" type="application/rss+xml"/>
 <language>en</language>
-<lastBuildDate>Tue, 27 Oct 2026 18:49:49 +0000</lastBuildDate>
+<lastBuildDate>Tue, 27 Oct 2026 21:41:16 +0000</lastBuildDate>
+<item>
+<title>Claude for Financial Advisors</title>
+<link>https://claude.com/blog/claude-for-financial-advisors</link>
+<guid isPermaLink="true">https://claude.com/blog/claude-for-financial-advisors</guid>
+<pubDate>Tue, 27 Oct 2026 12:00:00 +0000</pubDate>
+<description>&lt;p&gt;&lt;img src="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa81abedc3309638d37d060_og_claude-for-financial-advisors.jpg" alt=""/&gt;&lt;/p&gt;&lt;p&gt;Financial advisors can now connect Claude to the custodians, portfolio platforms, CRMs, and planning tools they depend on, along with new skills tailored to the daily work of a financial advisor.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/blog/claude-for-financial-advisors"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Expanding Claude for Nonprofits</title>
 <link>https://claude.com/resources/articles/expanding-claude-for-nonprofits</link>
@@ -195,13 +202,6 @@
 <guid isPermaLink="true">https://claude.com/resources/articles/salesforce-in-claude</guid>
 <pubDate>Tue, 15 Sep 2026 12:00:00 +0000</pubDate>
 <description>&lt;p&gt;&lt;img src="https://claude.com/resources/articles/salesforce-in-claude/opengraph-image/og" alt=""/&gt;&lt;/p&gt;&lt;p&gt;Sellers can now research companies, prep for calls, review pipeline, and draft CRM updates with Anthropic&amp;#x27;s new Salesforce in Claude plugin.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/resources/articles/salesforce-in-claude"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Claude for Financial Advisors</title>
-<link>https://claude.com/blog/claude-for-financial-advisors</link>
-<guid isPermaLink="true">https://claude.com/blog/claude-for-financial-advisors</guid>
-<pubDate>Mon, 14 Sep 2026 12:00:00 +0000</pubDate>
-<description>&lt;p&gt;&lt;img src="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa81abedc3309638d37d060_og_claude-for-financial-advisors.jpg" alt=""/&gt;&lt;/p&gt;&lt;p&gt;Financial advisors can now connect Claude to the custodians, portfolio platforms, CRMs, and planning tools they depend on, along with new skills tailored to the daily work of a financial advisor.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/blog/claude-for-financial-advisors"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Building commerce agents with Claude</title>
