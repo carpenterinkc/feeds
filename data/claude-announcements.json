@@ -287,6 +287,24 @@
     "title": "How Comcast and Booz Allen use Claude Mythos to find exploit chains and secure their codebases",
     "url": "https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases"
   },
+  "https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company": {
+    "date": "2026-10-28T12:00:00+00:00",
+    "description": "IDC integrated Claude as part of its Quanta platform, and it has rolled Claude out across its own business",
+    "first_seen": "2026-10-28T20:14:42+00:00",
+    "image": "https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company/opengraph-image/og",
+    "published": "2026-10-28",
+    "title": "IDC brings Quanta into Claude and adopts Claude across the company",
+    "url": "https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company"
+  },
+  "https://claude.com/resources/articles/introducing-artifacts-for-legal-work": {
+    "date": "2026-10-28T12:00:00+00:00",
+    "description": "Anthropic's new legal artifacts and connectors help legal teams get work done with Claude.",
+    "first_seen": "2026-10-28T20:14:42+00:00",
+    "image": "https://claude.com/resources/articles/introducing-artifacts-for-legal-work/opengraph-image/og",
+    "published": "2026-10-28",
+    "title": "Introducing artifacts for legal work",
+    "url": "https://claude.com/resources/articles/introducing-artifacts-for-legal-work"
+  },
   "https://claude.com/resources/articles/salesforce-in-claude": {
     "date": "2026-09-15T12:00:00+00:00",
     "description": "Sellers can now research companies, prep for calls, review pipeline, and draft CRM updates with Anthropic's new Salesforce in Claude plugin.",
@@ -295,6 +313,15 @@
     "published": "2026-09-15",
     "title": "Bringing Salesforce into Claude",
     "url": "https://claude.com/resources/articles/salesforce-in-claude"
+  },
+  "https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets": {
+    "date": "2026-10-28T12:00:00+00:00",
+    "description": "Smart reports show what work is happening and where, surveys capture feedback on it, and pooled group budgets give each team one shared budget.",
+    "first_seen": "2026-10-28T20:14:42+00:00",
+    "image": "https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets/opengraph-image/og",
+    "published": "2026-10-28",
+    "title": "Smart reports, surveys, and pooled group budgets for Claude Enterprise",
+    "url": "https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets"
   },
   "https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai": {
     "date": "2026-10-13T12:00:00+00:00",
