@@ -6,7 +6,14 @@
 <description>Product announcements from the Claude blog.</description>
 <atom:link href="https://carpenterinkc.github.io/feeds/claude-announcements.xml" rel="self" type="application/rss+xml"/>
 <language>en</language>
-<lastBuildDate>Mon, 02 Nov 2026 10:57:30 +0000</lastBuildDate>
+<lastBuildDate>Mon, 02 Nov 2026 21:41:11 +0000</lastBuildDate>
+<item>
+<title>Make long-running agents faster with message threads</title>
+<link>https://claude.com/resources/articles/message-threads</link>
+<guid isPermaLink="true">https://claude.com/resources/articles/message-threads</guid>
+<pubDate>Mon, 02 Nov 2026 12:00:00 +0000</pubDate>
+<description>&lt;p&gt;&lt;img src="https://claude.com/resources/articles/message-threads/opengraph-image/og" alt=""/&gt;&lt;/p&gt;&lt;p&gt;New in the Messages API, send your conversation once, and the API receives only what’s new with every turn.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/resources/articles/message-threads"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>IDC brings Quanta into Claude and adopts Claude across the company</title>
 <link>https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company</link>

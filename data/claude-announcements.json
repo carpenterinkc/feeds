@@ -305,6 +305,15 @@
     "title": "Introducing artifacts for legal work",
     "url": "https://claude.com/resources/articles/introducing-artifacts-for-legal-work"
   },
+  "https://claude.com/resources/articles/message-threads": {
+    "date": "2026-11-02T12:00:00+00:00",
+    "description": "New in the Messages API, send your conversation once, and the API receives only what\u2019s new with every turn.",
+    "first_seen": "2026-11-02T21:41:09+00:00",
+    "image": "https://claude.com/resources/articles/message-threads/opengraph-image/og",
+    "published": "2026-11-02",
+    "title": "Make long-running agents faster with message threads",
+    "url": "https://claude.com/resources/articles/message-threads"
+  },
   "https://claude.com/resources/articles/salesforce-in-claude": {
     "date": "2026-09-15T12:00:00+00:00",
     "description": "Sellers can now research companies, prep for calls, review pipeline, and draft CRM updates with Anthropic's new Salesforce in Claude plugin.",
