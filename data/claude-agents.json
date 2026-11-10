@@ -233,6 +233,15 @@
     "title": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK",
     "url": "https://claude.com/resources/articles/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk"
   },
+  "https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude": {
+    "date": "2026-11-10T12:00:00+00:00",
+    "description": "How Curative built a hierarchy of agents on Claude to sign provider contracts about 50 times faster than its team did in 2025.",
+    "first_seen": "2026-11-10T21:17:09+00:00",
+    "image": "https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude/opengraph-image/og",
+    "published": "2026-11-10",
+    "title": "How Curative is building a national provider network with agents on Claude",
+    "url": "https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude"
+  },
   "https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company": {
     "date": "2026-10-28T12:00:00+00:00",
     "description": "IDC integrated Claude as part of its Quanta platform, and it has rolled Claude out across its own business",
@@ -250,6 +259,15 @@
     "published": "2026-11-02",
     "title": "Make long-running agents faster with message threads",
     "url": "https://claude.com/resources/articles/message-threads"
+  },
+  "https://claude.com/resources/articles/sheets-whiteboards-data": {
+    "date": "2026-11-10T12:00:00+00:00",
+    "description": "Brainstorm on a shared whiteboard, build a spreadsheet, and share dashboards with your team, all with Claude. Available today on all paid plans.",
+    "first_seen": "2026-11-10T21:17:09+00:00",
+    "image": "https://claude.com/resources/articles/sheets-whiteboards-data/opengraph-image/og",
+    "published": "2026-11-10",
+    "title": "Introducing Claude Whiteboards, Claude Sheets, and Claude Data",
+    "url": "https://claude.com/resources/articles/sheets-whiteboards-data"
   },
   "https://claude.com/resources/articles/were-expanding-the-claude-startups-program-to-help-founders-build": {
     "date": "2026-10-06T12:00:00+00:00",
