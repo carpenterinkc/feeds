@@ -6,20 +6,20 @@
 <description>Agents posts from the Claude blog.</description>
 <atom:link href="https://carpenterinkc.github.io/feeds/claude-agents.xml" rel="self" type="application/rss+xml"/>
 <language>en</language>
-<lastBuildDate>Tue, 10 Nov 2026 21:17:12 +0000</lastBuildDate>
-<item>
-<title>Introducing Claude Whiteboards, Claude Sheets, and Claude Data</title>
-<link>https://claude.com/resources/articles/sheets-whiteboards-data</link>
-<guid isPermaLink="true">https://claude.com/resources/articles/sheets-whiteboards-data</guid>
-<pubDate>Tue, 10 Nov 2026 12:00:00 +0000</pubDate>
-<description>&lt;p&gt;&lt;img src="https://claude.com/resources/articles/sheets-whiteboards-data/opengraph-image/og" alt=""/&gt;&lt;/p&gt;&lt;p&gt;Brainstorm on a shared whiteboard, build a spreadsheet, and share dashboards with your team, all with Claude. Available today on all paid plans.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/resources/articles/sheets-whiteboards-data"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
-</item>
+<lastBuildDate>Wed, 11 Nov 2026 01:15:22 +0000</lastBuildDate>
 <item>
 <title>How Curative is building a national provider network with agents on Claude</title>
 <link>https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude</link>
 <guid isPermaLink="true">https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude</guid>
 <pubDate>Tue, 10 Nov 2026 12:00:00 +0000</pubDate>
 <description>&lt;p&gt;&lt;img src="https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude/opengraph-image/og" alt=""/&gt;&lt;/p&gt;&lt;p&gt;How Curative built a hierarchy of agents on Claude to sign provider contracts about 50 times faster than its team did in 2025.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Introducing Claude Whiteboards, Claude Sheets, and Claude Data</title>
+<link>https://claude.com/resources/articles/sheets-whiteboards-data</link>
+<guid isPermaLink="true">https://claude.com/resources/articles/sheets-whiteboards-data</guid>
+<pubDate>Tue, 10 Nov 2026 12:00:00 +0000</pubDate>
+<description>&lt;p&gt;&lt;img src="https://claude.com/resources/articles/sheets-whiteboards-data/opengraph-image/og" alt=""/&gt;&lt;/p&gt;&lt;p&gt;Brainstorm on a shared whiteboard, build a spreadsheet, and share dashboards with your team, all with Claude. Available today on all paid plans.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/resources/articles/sheets-whiteboards-data"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Make long-running agents faster with message threads</title>
