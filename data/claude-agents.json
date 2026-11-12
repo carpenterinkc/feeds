@@ -251,6 +251,15 @@
     "title": "IDC brings Quanta into Claude and adopts Claude across the company",
     "url": "https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company"
   },
+  "https://claude.com/resources/articles/interactive-connectors-full-tool": {
+    "date": "2026-11-10T12:00:00+00:00",
+    "description": "Interactive connectors can now open beside your chat or full screen, so you and Claude can work in the same tool, where the connector supports it.",
+    "first_seen": "2026-11-12T19:52:12+00:00",
+    "image": "https://claude.com/resources/articles/interactive-connectors-full-tool/opengraph-image/og",
+    "published": "2026-11-10",
+    "title": "Your apps can now open in Claude, and Claude can work in them",
+    "url": "https://claude.com/resources/articles/interactive-connectors-full-tool"
+  },
   "https://claude.com/resources/articles/message-threads": {
     "date": "2026-11-02T12:00:00+00:00",
     "description": "New in the Messages API, send your conversation once, and the API receives only what\u2019s new with every turn.",

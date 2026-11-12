@@ -6,7 +6,7 @@
 <description>Agents posts from the Claude blog.</description>
 <atom:link href="https://carpenterinkc.github.io/feeds/claude-agents.xml" rel="self" type="application/rss+xml"/>
 <language>en</language>
-<lastBuildDate>Thu, 12 Nov 2026 10:59:33 +0000</lastBuildDate>
+<lastBuildDate>Thu, 12 Nov 2026 19:52:13 +0000</lastBuildDate>
 <item>
 <title>How Curative is building a national provider network with agents on Claude</title>
 <link>https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude</link>
@@ -20,6 +20,13 @@
 <guid isPermaLink="true">https://claude.com/resources/articles/sheets-whiteboards-data</guid>
 <pubDate>Tue, 10 Nov 2026 12:00:00 +0000</pubDate>
 <description>&lt;p&gt;&lt;img src="https://claude.com/resources/articles/sheets-whiteboards-data/opengraph-image/og" alt=""/&gt;&lt;/p&gt;&lt;p&gt;Brainstorm on a shared whiteboard, build a spreadsheet, and share dashboards with your team, all with Claude. Available today on all paid plans.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/resources/articles/sheets-whiteboards-data"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Your apps can now open in Claude, and Claude can work in them</title>
+<link>https://claude.com/resources/articles/interactive-connectors-full-tool</link>
+<guid isPermaLink="true">https://claude.com/resources/articles/interactive-connectors-full-tool</guid>
+<pubDate>Tue, 10 Nov 2026 12:00:00 +0000</pubDate>
+<description>&lt;p&gt;&lt;img src="https://claude.com/resources/articles/interactive-connectors-full-tool/opengraph-image/og" alt=""/&gt;&lt;/p&gt;&lt;p&gt;Interactive connectors can now open beside your chat or full screen, so you and Claude can work in the same tool, where the connector supports it.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/resources/articles/interactive-connectors-full-tool"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Make long-running agents faster with message threads</title>
