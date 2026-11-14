@@ -170,6 +170,15 @@
     "title": "Building agents: When to fold subagents into your main agent loop",
     "url": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop"
   },
+  "https://claude.com/resources/articles/building-always-on-agents": {
+    "date": "2026-11-13T12:00:00+00:00",
+    "description": "Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.",
+    "first_seen": "2026-11-14T01:25:43+00:00",
+    "image": "https://claude.com/resources/articles/building-always-on-agents/opengraph-image/og",
+    "published": "2026-11-13",
+    "title": "Building always-on agents",
+    "url": "https://claude.com/resources/articles/building-always-on-agents"
+  },
   "https://claude.com/resources/articles/claude-code-mods": {
     "date": "2026-10-01T12:00:00+00:00",
     "description": "Mods are small TypeScript functions that change how Claude Code works. Rewrite prompts, block risky commands, add custom UI, or replace built-in features. Write one yourself or ask Claude Code to write it, then share it as a plugin.",
