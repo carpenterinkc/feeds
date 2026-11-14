@@ -6,7 +6,7 @@
 <description>Agents posts from the Claude blog.</description>
 <atom:link href="https://carpenterinkc.github.io/feeds/claude-agents.xml" rel="self" type="application/rss+xml"/>
 <language>en</language>
-<lastBuildDate>Sat, 14 Nov 2026 01:25:45 +0000</lastBuildDate>
+<lastBuildDate>Sat, 14 Nov 2026 10:18:48 +0000</lastBuildDate>
 <item>
 <title>Building always-on agents</title>
 <link>https://claude.com/resources/articles/building-always-on-agents</link>
