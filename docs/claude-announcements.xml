@@ -6,7 +6,7 @@
 <description>Product announcements from the Claude blog.</description>
 <atom:link href="https://carpenterinkc.github.io/feeds/claude-announcements.xml" rel="self" type="application/rss+xml"/>
 <language>en</language>
-<lastBuildDate>Sun, 15 Nov 2026 06:23:16 +0000</lastBuildDate>
+<lastBuildDate>Sun, 15 Nov 2026 16:18:40 +0000</lastBuildDate>
 <item>
 <title>Your apps can now open in Claude, and Claude can work in them</title>
 <link>https://claude.com/resources/articles/interactive-connectors-full-tool</link>
