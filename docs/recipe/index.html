@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Recipe</title>
+<style>
+  :root { --ink:#1d1d1f; --muted:#6e6e73; --line:#e5e5ea; --accent:#b4532a; --bg:#fbfaf8; }
+  @media (prefers-color-scheme: dark) { :root { --ink:#f5f5f7; --muted:#a1a1a6; --line:#3a3a3c; --accent:#ff9f6e; --bg:#1c1c1e; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:18px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:28px 20px 80px; }
+  h1 { font:700 32px/1.2 -apple-system, "SF Pro Display", system-ui, sans-serif; margin:0 0 8px; }
+  .meta { color:var(--muted); font-size:15px; margin:0 0 18px; }
+  .desc { margin:0 0 20px; }
+  .scale { display:flex; gap:8px; align-items:center; flex-wrap:wrap; margin:0 0 24px; }
+  .scale span { color:var(--muted); font-size:15px; margin-right:4px; }
+  .scale button { font:600 17px system-ui, sans-serif; min-width:64px; min-height:48px; padding:0 16px; border-radius:12px; border:1px solid var(--line); background:transparent; color:var(--ink); }
+  .scale button[aria-pressed="true"] { background:var(--accent); border-color:var(--accent); color:#fff; }
+  h2 { font:700 22px/1.3 system-ui, sans-serif; margin:28px 0 10px; padding-top:16px; border-top:1px solid var(--line); }
+  h3 { font:600 17px/1.3 system-ui, sans-serif; margin:18px 0 6px; color:var(--accent); }
+  ul.ing { padding-left:22px; margin:0; }
+  ul.ing li { margin:4px 0; }
+  ol.steps { padding-left:26px; margin:0; }
+  ol.steps li { margin:0 0 12px; }
+  .notes p { margin:0 0 10px; }
+  .source { color:var(--muted); font-size:15px; word-break:break-all; }
+  .empty { color:var(--muted); }
+  pre.raw { white-space:pre-wrap; font:15px/1.5 ui-monospace, monospace; }
+</style>
+</head>
+<body>
+<main id="app"><p class="empty">Loading recipe…</p></main>
+<script>
+/* ---------- parsing (pure functions) ---------- */
+var SECTION = /^(description|ingredients|directions|instructions|method|notes|nutrition|nutritional info|source)\s*:\s*(.*)$/i;
+var META_LABELS = /^(servings|yield|serves|prep time|cook time|total time|difficulty|rating)\s*:/i;
+
+function parsePaprikaText(text) {
+  var lines = text.replace(/\r\n?/g, "\n").split("\n");
+  var r = { name: "", meta: [], description: "", ingredients: [], directions: [], notes: "", nutrition: "", source: "" };
+  var i = 0;
+  while (i < lines.length && !lines[i].trim()) i++;
+  if (i < lines.length && !SECTION.test(lines[i].trim())) { r.name = lines[i].trim(); i++; }
+  var current = null, buf = {};
+  for (; i < lines.length; i++) {
+    var line = lines[i], t = line.trim(), m = t.match(SECTION);
+    if (m) {
+      var key = m[1].toLowerCase();
+      if (key === "instructions" || key === "method") key = "directions";
+      if (key === "nutritional info") key = "nutrition";
+      current = key; buf[current] = buf[current] || [];
+      if (m[2]) buf[current].push(m[2]);
+      continue;
+    }
+    if (!current) {
+      if (!t || /^[★☆\s]+$/.test(t)) continue;
+      if (META_LABELS.test(t) || / \| /.test(t)) {
+        t.split(/\s*\|\s*/).forEach(function (p) { if (p.trim()) r.meta.push(p.trim()); });
+      }
+      continue; /* categories line and anything else before sections */
+    }
+    buf[current].push(line);
+  }
+  function block(k) { return (buf[k] || []).join("\n").trim(); }
+  r.description = block("description");
+  r.notes = block("notes");
+  r.nutrition = block("nutrition");
+  r.source = block("source");
+  r.ingredients = block("ingredients").split("\n").map(function (s) { return s.trim(); }).filter(Boolean);
+  r.directions = block("directions");
+  return r;
+}
+
+function headerText(s) {
+  var m = s.match(/^\*\*(.+?)\*\*:?$/) || s.match(/^#+\s*(.+)$/) || s.match(/^([A-Z][A-Za-z0-9 &'’\-\/(),.]{1,60}):$/);
+  return m ? m[1].trim() : null;
+}
+
+function parseDirections(text) {
+  /* returns [{section: string|null, steps: [string]}] */
+  var groups = [{ section: null, steps: [] }];
+  var paras = text.split(/\n\s*\n/);
+  if (paras.length === 1) paras = text.split("\n");
+  paras.forEach(function (p) {
+    p = p.trim(); if (!p) return;
+    var h = headerText(p);
+    if (h && p.indexOf("\n") === -1) { groups.push({ section: h, steps: [] }); return; }
+    var sub = p.split("\n");
+    var first = headerText(sub[0].trim());
+    if (first && sub.length > 1) { groups.push({ section: first, steps: [] }); p = sub.slice(1).join(" ").trim(); }
+    p = p.replace(/^\s*(step\s*)?\d+[.)]\s*/i, "").replace(/\s*\n\s*/g, " ");
+    groups[groups.length - 1].steps.push(p);
+  });
+  return groups.filter(function (g) { return g.steps.length; });
+}
+
+/* ---------- scaling ---------- */
+var UNI = { "½":0.5, "⅓":1/3, "⅔":2/3, "¼":0.25, "¾":0.75, "⅕":0.2, "⅖":0.4, "⅗":0.6, "⅘":0.8, "⅙":1/6, "⅚":5/6, "⅛":0.125, "⅜":0.375, "⅝":0.625, "⅞":0.875 };
+var NUM = "(?:\\d+\\s+\\d+\\/\\d+|\\d+\\s*[½⅓⅔¼¾⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞]|\\d+\\/\\d+|\\d*\\.\\d+|\\d+|[½⅓⅔¼¾⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞])";
+var QTY = new RegExp("^(" + NUM + ")(\\s*(?:[-–—]|to)\\s*(" + NUM + "))?");
+
+function toNum(s) {
+  s = s.trim(); var m;
+  if ((m = s.match(/^(\d+)\s+(\d+)\/(\d+)$/))) return +m[1] + m[2] / m[3];
+  if ((m = s.match(/^(\d+)\s*([½⅓⅔¼¾⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞])$/))) return +m[1] + UNI[m[2]];
+  if ((m = s.match(/^(\d+)\/(\d+)$/))) return m[1] / m[2];
+  if (UNI[s] !== undefined) return UNI[s];
+  return parseFloat(s);
+}
+
+function fmt(n) {
+  if (Math.abs(n - Math.round(n)) < 0.02) return String(Math.round(n));
+  var whole = Math.floor(n), frac = n - whole;
+  var opts = [[1/8,"1/8"],[1/4,"1/4"],[1/3,"1/3"],[3/8,"3/8"],[1/2,"1/2"],[5/8,"5/8"],[2/3,"2/3"],[3/4,"3/4"],[7/8,"7/8"]];
+  var best = null, bd = 1;
+  opts.forEach(function (o) { var d = Math.abs(frac - o[0]); if (d < bd) { bd = d; best = o; } });
+  if (bd < 0.03) return (whole ? whole + " " : "") + best[1];
+  if (frac > 0.94) return String(whole + 1);
+  return String(Math.round(n * 100) / 100);
+}
+
+function scaleLine(line, x) {
+  if (x === 1) return line;
+  var m = line.match(QTY);
+  if (!m) return line;
+  var a = fmt(toNum(m[1]) * x);
+  var out = a;
+  if (m[2]) { var sep = m[2].slice(0, m[2].length - m[3].length); out += sep + fmt(toNum(m[3]) * x); }
+  return out + line.slice(m[0].length);
+}
+
+/* ---------- ISO durations for schema ---------- */
+function isoDuration(s) {
+  if (!s) return null;
+  var h = 0, mi = 0, ok = false, m;
+  if ((m = s.match(/(\d+(?:\.\d+)?)\s*(?:h|hr|hrs|hour|hours)\b/i))) { h = parseFloat(m[1]); ok = true; }
+  if ((m = s.match(/(\d+)\s*(?:m|min|mins|minute|minutes)\b/i))) { mi = parseInt(m[1], 10); ok = true; }
+  if (!ok) return null;
+  mi += Math.round((h % 1) * 60); h = Math.floor(h);
+  return "PT" + (h ? h + "H" : "") + (mi ? mi + "M" : "") || null;
+}
+
+function buildSchema(r, x) {
+  var metaMap = {};
+  r.meta.forEach(function (p) { var i = p.indexOf(":"); if (i > 0) metaMap[p.slice(0, i).trim().toLowerCase()] = p.slice(i + 1).trim(); });
+  var groups = parseDirections(r.directions);
+  var instructions;
+  if (groups.some(function (g) { return g.section; })) {
+    instructions = groups.map(function (g) {
+      var steps = g.steps.map(function (s) { return { "@type": "HowToStep", "text": s }; });
+      return g.section ? { "@type": "HowToSection", "name": g.section, "itemListElement": steps } : steps;
+    });
+    instructions = [].concat.apply([], instructions);
+  } else {
+    instructions = (groups[0] ? groups[0].steps : []).map(function (s) { return { "@type": "HowToStep", "text": s }; });
+  }
+  var s = {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": r.name || "Recipe",
+    "recipeIngredient": r.ingredients.filter(function (l) { return !headerText(l); }).map(function (l) { return scaleLine(l, x); }),
+    "recipeInstructions": instructions
+  };
+  if (r.description) s.description = r.description;
+  var y = metaMap["servings"] || metaMap["yield"] || metaMap["serves"];
+  if (y) s.recipeYield = x === 1 ? y : scaleLine(y, x);
+  var pt = isoDuration(metaMap["prep time"]), ct = isoDuration(metaMap["cook time"]), tt = isoDuration(metaMap["total time"]);
+  if (pt) s.prepTime = pt; if (ct) s.cookTime = ct; if (tt) s.totalTime = tt;
+  if (r.notes) s.comment = { "@type": "Comment", "text": r.notes };
+  return s;
+}
+
+/* ---------- state in the URL fragment ---------- */
+function readState() {
+  var h = location.hash.replace(/^#/, "");
+  var x = 1, text = "";
+  var m = h.match(/^x=([\d.]+)&r=([\s\S]*)$/);
+  if (m) { x = parseFloat(m[1]) || 1; h = m[2]; } else if (h.indexOf("r=") === 0) { h = h.slice(2); }
+  try { text = decodeURIComponent(h); } catch (e) { try { text = decodeURIComponent(h); } catch (e2) { text = h; } }
+  return { x: x, text: text, raw: m ? m[2] : (location.hash.indexOf("#r=") === 0 ? location.hash.slice(3) : location.hash.slice(1)) };
+}
+
+/* ---------- rendering ---------- */
+function el(tag, attrs, kids) {
+  var e = document.createElement(tag);
+  if (attrs) for (var k in attrs) { if (k === "text") e.textContent = attrs[k]; else e.setAttribute(k, attrs[k]); }
+  (kids || []).forEach(function (c) { if (c) e.appendChild(c); });
+  return e;
+}
+
+function render() {
+  var st = readState(), app = document.getElementById("app");
+  app.innerHTML = "";
+  if (!st.text.trim()) { app.appendChild(el("p", { "class": "empty", text: "No recipe in this link.  Share a recipe from Paprika with the Open on HomeView shortcut." })); return; }
+  if (/^https?:\/\/\S+$/.test(st.text.trim())) { location.replace(st.text.trim()); return; }
+  var r = parsePaprikaText(st.text), x = st.x;
+  if (!r.ingredients.length && !r.directions) { app.appendChild(el("h1", { text: r.name || "Recipe" })); app.appendChild(el("pre", { "class": "raw", text: st.text })); return; }
+
+  document.title = r.name || "Recipe";
+  var old = document.getElementById("recipe-ld"); if (old) old.remove();
+  var ld = el("script", { type: "application/ld+json", id: "recipe-ld" });
+  ld.textContent = JSON.stringify(buildSchema(r, x));
+  document.head.appendChild(ld);
+
+  app.appendChild(el("h1", { text: r.name || "Recipe" }));
+  if (r.meta.length) app.appendChild(el("p", { "class": "meta", text: r.meta.join("  ·  ") }));
+  if (r.description) app.appendChild(el("p", { "class": "desc", text: r.description }));
+
+  var bar = el("div", { "class": "scale", role: "group", "aria-label": "Scale ingredients" }, [el("span", { text: "Scale" })]);
+  [0.5, 1, 2, 3].forEach(function (v) {
+    var b = el("button", { type: "button", "aria-pressed": String(v === x), text: (v === 0.5 ? "½" : v) + "×" });
+    b.addEventListener("click", function () { history.replaceState(null, "", "#x=" + v + "&r=" + st.raw); render(); });
+    bar.appendChild(b);
+  });
+  app.appendChild(bar);
+
+  app.appendChild(el("h2", { text: "Ingredients" + (x !== 1 ? " (" + (x === 0.5 ? "½" : x) + "×)" : "") }));
+  var ul = null;
+  r.ingredients.forEach(function (l) {
+    var h = headerText(l);
+    if (h) { app.appendChild(el("h3", { text: h })); ul = null; return; }
+    if (!ul) { ul = el("ul", { "class": "ing" }); app.appendChild(ul); }
+    ul.appendChild(el("li", { text: scaleLine(l, x) }));
+  });
+
+  app.appendChild(el("h2", { text: "Directions" }));
+  var n = 1;
+  parseDirections(r.directions).forEach(function (g) {
+    if (g.section) app.appendChild(el("h3", { text: g.section }));
+    var ol = el("ol", { "class": "steps", start: String(n) });
+    g.steps.forEach(function (s) { ol.appendChild(el("li", { text: s })); n++; });
+    app.appendChild(ol);
+  });
+
+  if (r.notes) {
+    app.appendChild(el("h2", { text: "Notes" }));
+    var nd = el("div", { "class": "notes" });
+    r.notes.split(/\n\s*\n|\n/).forEach(function (p) { if (p.trim()) nd.appendChild(el("p", { text: p.trim() })); });
+    app.appendChild(nd);
+  }
+  if (r.source) app.appendChild(el("p", { "class": "source", text: "Source: " + r.source }));
+}
+
+window.addEventListener("hashchange", render);
+render();
+</script>
+</body>
+</html>
