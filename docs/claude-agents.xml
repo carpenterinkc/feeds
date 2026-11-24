@@ -6,7 +6,14 @@
 <description>Agents posts from the Claude blog.</description>
 <atom:link href="https://carpenterinkc.github.io/feeds/claude-agents.xml" rel="self" type="application/rss+xml"/>
 <language>en</language>
-<lastBuildDate>Tue, 24 Nov 2026 13:37:07 +0000</lastBuildDate>
+<lastBuildDate>Tue, 24 Nov 2026 23:52:30 +0000</lastBuildDate>
+<item>
+<title>MCP servers can now ship skills, run tasks, and more with Claude</title>
+<link>https://claude.com/resources/articles/skills-over-mcp-tasks-and-more</link>
+<guid isPermaLink="true">https://claude.com/resources/articles/skills-over-mcp-tasks-and-more</guid>
+<pubDate>Tue, 24 Nov 2026 12:00:00 +0000</pubDate>
+<description>&lt;p&gt;&lt;img src="https://claude.com/resources/articles/skills-over-mcp-tasks-and-more/opengraph-image/og" alt=""/&gt;&lt;/p&gt;&lt;p&gt;Skills over MCP is in public beta in Claude, so MCP servers can ship skills alongside their tools. Tasks and Elicitation are now generally available, and File Uploads is rolling out soon.&lt;/p&gt;&lt;p&gt;&lt;a href="https://claude.com/resources/articles/skills-over-mcp-tasks-and-more"&gt;Read the full post&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Building always-on agents</title>
 <link>https://claude.com/resources/articles/building-always-on-agents</link>

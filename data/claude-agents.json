@@ -287,6 +287,15 @@
     "title": "Introducing Claude Whiteboards, Claude Sheets, and Claude Data",
     "url": "https://claude.com/resources/articles/sheets-whiteboards-data"
   },
+  "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more": {
+    "date": "2026-11-24T12:00:00+00:00",
+    "description": "Skills over MCP is in public beta in Claude, so MCP servers can ship skills alongside their tools. Tasks and Elicitation are now generally available, and File Uploads is rolling out soon.",
+    "first_seen": "2026-11-24T23:52:28+00:00",
+    "image": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more/opengraph-image/og",
+    "published": "2026-11-24",
+    "title": "MCP servers can now ship skills, run tasks, and more with Claude",
+    "url": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more"
+  },
   "https://claude.com/resources/articles/were-expanding-the-claude-startups-program-to-help-founders-build": {
     "date": "2026-10-06T12:00:00+00:00",
     "description": "A year of the Claude Team plan, API credits, special offers on tools that help with running an AI-native company, and more.",
